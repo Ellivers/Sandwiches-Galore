@@ -1,0 +1,93 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:2b,id:\"minecraft:white_carpet\"},{Slot:3b,id:\"minecraft:white_carpet\"},{Slot:11b,id:\"minecraft:oak_planks\"},{Slot:12b,id:\"minecraft:oak_planks\"},{Slot:20b,id:\"minecraft:oak_planks\"},{Slot:21b,id:\"minecraft:oak_planks\"}]}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:1b}]}"
+                    }
+                  }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:10b}]}"
+                      }
+                    }
+                },
+                
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:19b}]}"
+                      }
+                    }
+                }
+              ]
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:1b,id:\"minecraft:white_carpet\"},{Slot:2b,id:\"minecraft:white_carpet\"},{Slot:10b,id:\"minecraft:oak_planks\"},{Slot:11b,id:\"minecraft:oak_planks\"},{Slot:19b,id:\"minecraft:oak_planks\"},{Slot:20b,id:\"minecraft:oak_planks\"}]}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:3b}]}"
+                    }
+                  }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:12b}]}"
+                      }
+                    }
+                },
+                
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:21b}]}"
+                      }
+                    }
+                }
+              ]
+            }
+        }
+    ]
+}

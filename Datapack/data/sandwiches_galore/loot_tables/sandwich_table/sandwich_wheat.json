@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "item.sandwiches_galore.sandwich_base",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                [{"text":"- ","color":"gray","italic":false},{"translate":"item.sandwiches_galore.wheat_bread"}],
+                                {"translate":"sandwiches_galore.item_lore","color":"dark_gray","italic":false}
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Sandwich:1b,Sandwich_Wheat:1b,GUI_Item:1b,CustomModelData:6710001,Items:[],NameLevel:0,FoodLevel:0}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

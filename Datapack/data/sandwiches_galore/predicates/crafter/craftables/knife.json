@@ -1,0 +1,139 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:3b,id:\"minecraft:iron_ingot\"},{Slot:11b,id:\"minecraft:iron_ingot\"},{Slot:19b,id:\"minecraft:stick\"}]}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:1b}]}"
+                    }
+                  }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:2b}]}"
+                      }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:10b}]}"
+                      }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:12b}]}"
+                      }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:20b}]}"
+                      }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:21b}]}"
+                      }
+                    }
+                }
+              ]
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:1b,id:\"minecraft:iron_ingot\"},{Slot:11b,id:\"minecraft:iron_ingot\"},{Slot:21b,id:\"minecraft:stick\"}]}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:2b}]}"
+                    }
+                  }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:3b}]}"
+                      }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:10b}]}"
+                      }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:12b}]}"
+                      }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:19b}]}"
+                      }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:20b}]}"
+                      }
+                    }
+                }
+              ]
+            }
+        }
+    ]
+}

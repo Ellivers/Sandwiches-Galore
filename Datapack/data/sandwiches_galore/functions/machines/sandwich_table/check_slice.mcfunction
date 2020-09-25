@@ -1,0 +1,4 @@
+execute if predicate sandwiches_galore:sandwich_table/slices/wheat run function sandwiches_galore:machines/sandwich_table/preview/wheat_base
+execute if predicate sandwiches_galore:sandwich_table/slices/buckwheat run function sandwiches_galore:machines/sandwich_table/preview/buckwheat_base
+execute if predicate sandwiches_galore:sandwich_table/slices/nether_sprout run function sandwiches_galore:machines/sandwich_table/preview/nether_sprout_base
+execute if predicate sandwiches_galore:sandwich_table/slices/corn run function sandwiches_galore:machines/sandwich_table/preview/corn_base

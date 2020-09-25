@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_sword"
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 6710001
+			},
+			"model": "sandwiches_galore:item/bread_knife"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "block/orange_stained_glass"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":6710001},"model":"sandwiches_galore:gui/heat_1"},
+		{"predicate": {"custom_model_data":6710002},"model":"sandwiches_galore:gui/heat_2"},
+		{"predicate": {"custom_model_data":6710003},"model":"sandwiches_galore:gui/heat_3"},
+		{"predicate": {"custom_model_data":6710004},"model":"sandwiches_galore:gui/heat_4"},
+		{"predicate": {"custom_model_data":6710005},"model":"sandwiches_galore:gui/heat_5"},
+		{"predicate": {"custom_model_data":6710006},"model":"sandwiches_galore:gui/heat_6"},
+		{"predicate": {"custom_model_data":6710007},"model":"sandwiches_galore:gui/heat_7"},
+		{"predicate": {"custom_model_data":6710008},"model":"sandwiches_galore:gui/heat_8"},
+		{"predicate": {"custom_model_data":6710009},"model":"sandwiches_galore:gui/heat_9"},
+		{"predicate": {"custom_model_data":6710010},"model":"sandwiches_galore:gui/heat_10"},
+		{"predicate": {"custom_model_data":6710011},"model":"sandwiches_galore:gui/heat_11"},
+		{"predicate": {"custom_model_data":6710012},"model":"sandwiches_galore:gui/heat_12"},
+		{"predicate": {"custom_model_data":6710013},"model":"sandwiches_galore:gui/heat_13"},
+		
+		{"predicate": {"custom_model_data":6710014},"model":"sandwiches_galore:gui/heat_0"}
+	]
+}

@@ -1,0 +1,99 @@
+{
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                  "equipment": {
+                    "legs": {
+                        "nbt": "{WheatBreadSlice:1b,BreadSlice:1b}"
+                    },
+                    "feet": {
+                        "nbt": "{WheatBreadSlice:1b,BreadSlice:1b}"
+                    }
+                  }
+              }
+            }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "legs": {
+                        "nbt": "{NetherSproutBreadSlice:1b,BreadSlice:1b}"
+                    },
+                    "feet": {
+                        "nbt": "{NetherSproutBreadSlice:1b,BreadSlice:1b}"
+                    }
+                }
+            }
+          }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                  "equipment": {
+                    "legs": {
+                        "nbt": "{BuckwheatBreadSlice:1b,BreadSlice:1b}"
+                    },
+                    "feet": {
+                        "nbt": "{BuckwheatBreadSlice:1b,BreadSlice:1b}"
+                    }
+                  }
+              }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                  "equipment": {
+                    "legs": {
+                        "nbt": "{CornbreadSlice:1b,BreadSlice:1b}"
+                    },
+                    "feet": {
+                        "nbt": "{CornbreadSlice:1b,BreadSlice:1b}"
+                    }
+                  }
+              }
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "legs": {
+                        "nbt": "{Sandwich:1b}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:reference",
+                    "name": "sandwiches_galore:sandwich_table/sandwichable2"
+                  }
+                }
+              ]
+            }
+          }
+    ]
+}

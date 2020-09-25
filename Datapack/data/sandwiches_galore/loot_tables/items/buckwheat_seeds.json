@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "item.sandwiches_galore.buckwheat_seeds",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {"translate":"sandwiches_galore.item_lore","color":"dark_gray","italic":false}
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BuckwheatSeeds:1b,Grindable:1b,CustomModelData:6710001,EntityTag:{Tags:[\"sandwiches_galore\",\"place\",\"place_buckwheat\"],Invisible:1b}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

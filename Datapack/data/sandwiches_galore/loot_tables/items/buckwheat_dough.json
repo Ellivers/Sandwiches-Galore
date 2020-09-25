@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_star",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "item.sandwiches_galore.buckwheat_dough",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {"translate":"sandwiches_galore.item_lore","color":"dark_gray","italic":false}
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BuckwheatDough:1b,CustomModelData:6710004,Bakeable:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

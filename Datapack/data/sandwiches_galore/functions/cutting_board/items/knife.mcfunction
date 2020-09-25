@@ -1,0 +1,2 @@
+execute align xyz positioned ~.9 ~-.84 ~.87 unless entity @e[type=minecraft:armor_stand,tag=cutting_board_objects,distance=...1,sort=nearest,limit=1,predicate=sandwiches_galore:cutting_board/bread] run function sandwiches_galore:cutting_board/items/no_bread
+execute align xyz positioned ~.9 ~-.84 ~.87 if entity @e[type=minecraft:armor_stand,tag=cutting_board_objects,distance=...1,sort=nearest,limit=1,predicate=sandwiches_galore:cutting_board/bread] run function sandwiches_galore:cutting_board/items/cut_bread1

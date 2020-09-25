@@ -1,0 +1,33 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "block/white_stained_glass"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data":6710001},"model":"sandwiches_galore:gui/arrow_1"},
+		{"predicate": {"custom_model_data":6710002},"model":"sandwiches_galore:gui/arrow_2"},
+		{"predicate": {"custom_model_data":6710003},"model":"sandwiches_galore:gui/arrow_3"},
+		{"predicate": {"custom_model_data":6710004},"model":"sandwiches_galore:gui/arrow_4"},
+		{"predicate": {"custom_model_data":6710005},"model":"sandwiches_galore:gui/arrow_5"},
+		{"predicate": {"custom_model_data":6710006},"model":"sandwiches_galore:gui/arrow_6"},
+		{"predicate": {"custom_model_data":6710007},"model":"sandwiches_galore:gui/arrow_7"},
+		{"predicate": {"custom_model_data":6710008},"model":"sandwiches_galore:gui/arrow_8"},
+		{"predicate": {"custom_model_data":6710009},"model":"sandwiches_galore:gui/arrow_9"},
+		{"predicate": {"custom_model_data":6710010},"model":"sandwiches_galore:gui/arrow_10"},
+		{"predicate": {"custom_model_data":6710011},"model":"sandwiches_galore:gui/arrow_11"},
+		{"predicate": {"custom_model_data":6710012},"model":"sandwiches_galore:gui/arrow_12"},
+		{"predicate": {"custom_model_data":6710013},"model":"sandwiches_galore:gui/arrow_13"},
+		{"predicate": {"custom_model_data":6710014},"model":"sandwiches_galore:gui/arrow_14"},
+		{"predicate": {"custom_model_data":6710015},"model":"sandwiches_galore:gui/arrow_15"},
+		{"predicate": {"custom_model_data":6710016},"model":"sandwiches_galore:gui/arrow_16"},
+		{"predicate": {"custom_model_data":6710017},"model":"sandwiches_galore:gui/arrow_17"},
+		{"predicate": {"custom_model_data":6710018},"model":"sandwiches_galore:gui/arrow_18"},
+		{"predicate": {"custom_model_data":6710019},"model":"sandwiches_galore:gui/arrow_19"},
+		{"predicate": {"custom_model_data":6710020},"model":"sandwiches_galore:gui/arrow_20"},
+		{"predicate": {"custom_model_data":6710021},"model":"sandwiches_galore:gui/arrow_21"},
+		{"predicate": {"custom_model_data":6710022},"model":"sandwiches_galore:gui/arrow_22"},
+		
+		{"predicate": {"custom_model_data":6710023},"model":"sandwiches_galore:gui/arrow_no"},
+		{"predicate": {"custom_model_data":6710024},"model":"sandwiches_galore:gui/arrow_0"}
+	]
+}

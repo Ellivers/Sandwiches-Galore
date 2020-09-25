@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "item.sandwiches_galore.crafter",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {"translate":"sandwiches_galore.item_lore","color":"dark_gray","italic":false}
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:6710008,Crafter:1b,EntityTag:{Tags:[\"sandwiches_galore\",\"place\",\"place_crafter\"],Invisible:1b}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

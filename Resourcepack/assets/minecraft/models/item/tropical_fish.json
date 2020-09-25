@@ -1,0 +1,32 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/tropical_fish"
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 6710001
+			},
+			"model": "sandwiches_galore:item/wheat_bread_slice"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710002
+			},
+			"model": "sandwiches_galore:item/buckwheat_bread_slice"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710003
+			},
+			"model": "sandwiches_galore:item/nether_sprout_bread_slice"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710004
+			},
+			"model": "sandwiches_galore:item/cornbread_slice"
+		}
+	]
+}

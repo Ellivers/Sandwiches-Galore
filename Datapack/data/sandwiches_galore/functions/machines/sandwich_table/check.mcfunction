@@ -1,0 +1,3 @@
+data modify storage sandwiches:sandwich_table Items set from block ~ ~ ~ Items
+execute if predicate sandwiches_galore:sandwich_table/bread_slice run function sandwiches_galore:machines/sandwich_table/check_slice
+execute if predicate sandwiches_galore:sandwich_table/sandwich if predicate sandwiches_galore:sandwich_table/sandwichable2 run function sandwiches_galore:machines/sandwich_table/preview/sandwich

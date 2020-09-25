@@ -1,0 +1,17 @@
+{
+	"providers": [
+		{ "type": "bitmap", "file": "sandwiches_galore:gui/oven.png", "height": 82, "ascent": 12,   "chars": [ "\uE671" ] },
+		{ "type": "bitmap", "file": "sandwiches_galore:gui/grinder.png", "height": 82, "ascent": 12,   "chars": [ "\uE672" ] },
+		{ "type": "bitmap", "file": "sandwiches_galore:gui/sandwich_table.png", "height": 82, "ascent": 12,   "chars": [ "\uE673" ] },
+		{ "type": "bitmap", "file": "sandwiches_galore:gui/crafter.png", "height": 82, "ascent": 12,   "chars": [ "\uE674" ] },
+		{
+            "type": "bitmap",
+            "file": "sandwiches_galore:gui/negative_space_pixel.png",
+            "ascent": -32768,
+            "height": -10,
+            "chars": [
+                "\uF808"
+            ]
+        }
+	]
+}

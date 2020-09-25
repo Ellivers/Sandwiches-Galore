@@ -1,0 +1,68 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/cooked_mutton"
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 6710001
+			},
+			"model": "sandwiches_galore:item/sandwich_wheat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710002
+			},
+			"model": "sandwiches_galore:item/sandwich_buckwheat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710003
+			},
+			"model": "sandwiches_galore:item/sandwich_nether_sprout"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710004
+			},
+			"model": "sandwiches_galore:item/sandwich_corn"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710005
+			},
+			"model": "sandwiches_galore:item/sandwich_gold"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710006
+			},
+			"model": "sandwiches_galore:item/puffer_sandwich_wheat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710007
+			},
+			"model": "sandwiches_galore:item/puffer_sandwich_buckwheat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710008
+			},
+			"model": "sandwiches_galore:item/puffer_sandwich_nether_sprout"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710009
+			},
+			"model": "sandwiches_galore:item/puffer_sandwich_corn"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710010
+			},
+			"model": "sandwiches_galore:item/puffer_sandwich_gold"
+		}
+	]
+}

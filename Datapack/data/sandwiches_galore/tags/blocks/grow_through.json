@@ -1,0 +1,17 @@
+{
+    "values": [
+        "minecraft:air",
+        "minecraft:cave_air",
+        "minecraft:torch",
+        "minecraft:soul_torch",
+        "#minecraft:buttons",
+        "#minecraft:trapdoors",
+        "#minecraft:fences",
+        "#sandwiches_galore:glass_panes",
+        "minecraft:iron_bars",
+        "minecraft:chain",
+        "#minecraft:walls",
+        "#minecraft:signs",
+        "minecraft:lever"
+    ]
+}

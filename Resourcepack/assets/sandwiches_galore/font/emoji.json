@@ -1,0 +1,13 @@
+{
+	"providers": [
+		{
+            "type": "bitmap",
+            "file": "sandwiches_galore:pensive.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uE404"
+            ]
+        }
+	]
+}

@@ -1,0 +1,109 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:19b,id:\"minecraft:bowl\"},{Slot:20b,id:\"minecraft:bowl\"},{Slot:21b,id:\"minecraft:bowl\"},{Slot:10b,id:\"minecraft:bowl\"},{Slot:12b,id:\"minecraft:bowl\"}]}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:1b}]}"
+                    }
+                  }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:2b}]}"
+                      }
+                    }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:3b}]}"
+                    }
+                  }
+                },
+                
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:11b}]}"
+                      }
+                    }
+                }
+              ]
+            }
+        },
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:10b,id:\"minecraft:bowl\"},{Slot:11b,id:\"minecraft:bowl\"},{Slot:12b,id:\"minecraft:bowl\"},{Slot:1b,id:\"minecraft:bowl\"},{Slot:3b,id:\"minecraft:bowl\"}]}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:2b}]}"
+                    }
+                  }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:19b}]}"
+                      }
+                    }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:20b}]}"
+                    }
+                  }
+                },
+                
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:21b}]}"
+                      }
+                    }
+                }
+              ]
+            }
+        }
+    ]
+}

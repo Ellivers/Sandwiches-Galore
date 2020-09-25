@@ -1,0 +1,3 @@
+execute if entity @s[tag=buckwheat] as @e[type=minecraft:armor_stand,tag=crop_buckwheat,sort=nearest,limit=1] at @s run function sandwiches_galore:break/buckwheat
+execute if entity @s[tag=corn] as @e[type=minecraft:armor_stand,tag=crop_corn,sort=nearest,limit=1] at @s run function sandwiches_galore:break/corn
+execute if entity @s[tag=corn_upper] as @e[type=minecraft:armor_stand,tag=crop_corn_upper,sort=nearest,limit=1] at @s run function sandwiches_galore:break/corn_upper

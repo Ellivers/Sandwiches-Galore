@@ -1,0 +1,67 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "legs": {
+                        "item": "minecraft:wheat",
+                        "count": {
+                            "min": 3,
+                            "max": 127
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "legs": {
+                        "item": "minecraft:item_frame",
+                        "nbt": "{BuckwheatSeeds:1b}",
+                        "count": {
+                            "min": 8,
+                            "max": 127
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "legs": {
+                        "nbt": "{DriedNetherSprouts:1b}",
+                        "count": {
+                            "min": 5,
+                            "max": 127
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "legs": {
+                        "item": "minecraft:cookie",
+                        "nbt": "{Corncob:1b}",
+                        "count": {
+                            "min": 2,
+                            "max": 127
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

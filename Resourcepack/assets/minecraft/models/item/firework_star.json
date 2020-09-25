@@ -1,0 +1,20 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/firework_star",
+        "layer1": "item/firework_star_overlay"
+    },
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":6710001}, "model": "sandwiches_galore:item/wheat_flour"},
+		{"predicate": {"custom_model_data":6710002}, "model": "sandwiches_galore:item/buckwheat_flour"},
+		{"predicate": {"custom_model_data":6710003}, "model": "sandwiches_galore:item/wheat_dough"},
+		{"predicate": {"custom_model_data":6710004}, "model": "sandwiches_galore:item/buckwheat_dough"},
+		{"predicate": {"custom_model_data":6710005}, "model": "sandwiches_galore:item/nether_sprout_flour"},
+		{"predicate": {"custom_model_data":6710006}, "model": "sandwiches_galore:item/nether_sprout_dough"},
+		{"predicate": {"custom_model_data":6710007}, "model": "sandwiches_galore:item/corn_flour"},
+		{"predicate": {"custom_model_data":6710008}, "model": "sandwiches_galore:item/corn_dough"},
+		
+		{"predicate": {"custom_model_data":6710009}, "model": "sandwiches_galore:item/dried_nether_sprouts"}
+	]
+}

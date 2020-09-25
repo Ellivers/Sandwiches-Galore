@@ -1,0 +1,2 @@
+execute if data block ~.01 ~ ~ Items[{Slot:13b}] run function sandwiches_galore:machines/reject_slots/13_grinder
+execute unless data block ~.01 ~ ~ Items[{Slot:13b}] run loot replace block ~ ~ ~ container.13 loot sandwiches_galore:items/gui_cog

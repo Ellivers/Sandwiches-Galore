@@ -1,0 +1,49 @@
+{
+    "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "head": {
+                            "nbt": "{WheatBread:1b}"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "head": {
+                            "nbt": "{BuckwheatBread:1b}"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "head": {
+                            "nbt": "{NetherSproutBread:1b}"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "head": {
+                            "nbt": "{Cornbread:1b}"
+                        }
+                    }
+                }
+            }
+        ]
+}

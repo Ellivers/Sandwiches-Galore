@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "hit": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+            "item": {
+                "nbt": "{Items:[{Name:\"pufferfish\"}]}"
+            }
+        }
+      }
+    },
+    "rewards": {
+      "function": "sandwiches_galore:consume/puffer_sandwich"
+    }
+}

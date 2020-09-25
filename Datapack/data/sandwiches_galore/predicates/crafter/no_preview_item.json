@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "chest": {
+                    "nbt": "{GUI_Item:1b}"
+                }
+            }
+        }
+    }
+}

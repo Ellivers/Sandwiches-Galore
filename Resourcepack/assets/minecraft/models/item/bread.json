@@ -1,0 +1,26 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/bread"
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 6710001
+			},
+			"model": "sandwiches_galore:item/buckwheat_bread"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710002
+			},
+			"model": "sandwiches_galore:item/nether_sprout_bread"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710003
+			},
+			"model": "sandwiches_galore:item/cornbread"
+		}
+	]
+}

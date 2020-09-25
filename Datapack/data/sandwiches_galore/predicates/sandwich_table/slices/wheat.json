@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "legs": {
+                "nbt": "{WheatBreadSlice:1b,BreadSlice:1b}"
+            },
+            "feet": {
+                "nbt": "{WheatBreadSlice:1b,BreadSlice:1b}"
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "parent": "minecraft:husbandry/root",
+    "display": {
+      "icon": {
+        "item": "minecraft:cookie",
+        "nbt": "{CustomModelData:6710001}"
+      },
+      "title": [
+        {
+          "translate": "sandwiches_galore.advancements.ultimate_sandwich.title_1"
+        },
+        {
+          "translate": "sandwiches_galore.advancements.ultimate_sandwich.title_2",
+          "color": "white",
+          "font": "sandwiches_galore:emoji"
+        }
+      ],
+      "description": {
+        "translate": "sandwiches_galore.advancements.ultimate_sandwich.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "get_oven": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cooked_beef",
+                        "nbt": "{Sandwich:1b,Items:[{Name:\"apple\"},{Name:\"gold?\"},{Name:\"cooked_mutton\"},{Name:\"cooked_beef\"},{Name:\"cooked_porkchop\"},{Name:\"pufferfish\"}]}"
+                    }
+                ]
+            }
+        }
+    }
+}

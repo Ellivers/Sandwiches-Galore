@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "hit": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "predicate": {
+                  "type": "minecraft:pig",
+                  "nbt": "{Tags:[\"hitbox\",\"sandwiches_galore\"]}"
+                },
+                "entity": "this"
+              }
+            ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "sandwiches_galore:hitbox_hit"
+    }
+}

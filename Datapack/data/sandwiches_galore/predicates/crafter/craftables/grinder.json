@@ -1,0 +1,125 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:19b,id:\"minecraft:smooth_stone\"},{Slot:20b,id:\"minecraft:smooth_stone\"},{Slot:21b,id:\"minecraft:smooth_stone\"},{Slot:11b,id:\"minecraft:iron_ingot\"}]}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:1b}]}"
+                    }
+                  }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:2b}]}"
+                      }
+                    }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:3b}]}"
+                    }
+                  }
+                },
+                
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:10b}]}"
+                      }
+                    }
+                },
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "nbt": "{Items:[{Slot:12b}]}"
+                      }
+                    }
+                }
+              ]
+            }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:10b,id:\"minecraft:smooth_stone\"},{Slot:11b,id:\"minecraft:smooth_stone\"},{Slot:12b,id:\"minecraft:smooth_stone\"},{Slot:2b,id:\"minecraft:iron_ingot\"}]}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:1b}]}"
+                  }
+                }
+              },
+              {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:3b}]}"
+                    }
+                  }
+              },
+              
+              {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:19b}]}"
+                    }
+                  }
+              },
+              {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "nbt": "{Items:[{Slot:20b}]}"
+                    }
+                  }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:21b}]}"
+                  }
+                }
+            }
+            ]
+          }
+      }
+    ]
+}

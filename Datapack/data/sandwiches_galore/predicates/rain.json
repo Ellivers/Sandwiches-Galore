@@ -1,0 +1,207 @@
+[
+    {
+        "condition": "minecraft:weather_check",
+        "raining": true
+    },
+
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "dimension": "minecraft:the_nether"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "dimension": "minecraft:the_end"
+            }
+        }
+    },
+
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:snowy_tundra"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:ice_spikes"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:snowy_taiga"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:snowy_taiga_mountains"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:snowy_beach"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:snowy_taiga_hills"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:frozen_ocean"
+            }
+        }
+    },
+
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:desert"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:desert_hills"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:desert_lakes"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:savanna"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:savanna_plateau"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:shattered_savanna"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:shattered_savanna_plateau"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:badlands"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:badlands_plateau"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:eroded_badlands"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:modified_badlands_plateau"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:modified_wooded_badlands_plateau"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:wooded_badlands_plateau"
+            }
+        }
+    }
+]

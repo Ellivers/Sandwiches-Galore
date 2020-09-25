@@ -1,0 +1,2 @@
+execute unless predicate sandwiches_galore:in_nether run function sandwiches_galore:large_bowl/add/water.add
+execute if predicate sandwiches_galore:in_nether run function sandwiches_galore:large_bowl/add/water.poof

@@ -1,0 +1,65 @@
+{
+	"subtitles.sandwiches_galore.block.grinder.grind": "Grinder grinds",
+	"subtitles.sandwiches_galore.item.knife.cut": "Bread Knife cuts",
+	"subtitles.sandwiches_galore.item.whisk.use": "Whisk scrapes",
+	
+	"sandwiches_galore.advancements.get_oven.title": "Bakery",
+	"sandwiches_galore.advancements.get_oven.description": "Obtain an oven",
+	"sandwiches_galore.advancements.ultimate_sandwich.title_1": "No cheese ",
+	"sandwiches_galore.advancements.ultimate_sandwich.title_2": "\uE404",
+	"sandwiches_galore.advancements.ultimate_sandwich.description": "Make the biggest possible sandwich",
+	
+	"sandwiches_galore.item_lore": "Sandwiches Galore",
+	
+	"sandwiches_galore.install_message": "§bSandwiches Galore §ais installed",
+	
+	"sandwiches_galore.gui.fuel": "Fuel",
+	"sandwiches_galore.gui.progress": "Progress",
+	
+	"sandwiches_galore.interface.oven": "\uF808\uE671",
+	"sandwiches_galore.interface.grinder": "\uF808\uE672",
+	"sandwiches_galore.interface.sandwich_table": "\uF808\uE673",
+	"sandwiches_galore.interface.crafter": "\uF808\uE674",
+	
+	"item.sandwiches_galore.oven": "Oven",
+	"item.sandwiches_galore.grinder": "Grinder",
+	"item.sandwiches_galore.sandwich_table": "Sandwich Table",
+	"item.sandwiches_galore.cutting_board": "Cutting Board",
+	"item.sandwiches_galore.large_bowl": "Large Bowl",
+	"item.sandwiches_galore.crafter": "Crafter",
+	
+	"item.sandwiches_galore.whisk": "Whisk",
+	"item.sandwiches_galore.bread_knife": "Bread Knife",
+	
+	"item.sandwiches_galore.buckwheat_seeds": "Buckwheat Seeds",
+	"item.sandwiches_galore.buckwheat_flour": "Buckwheat Flour",
+	"item.sandwiches_galore.buckwheat_dough": "Buckwheat Dough",
+	"item.sandwiches_galore.buckwheat_bread": "Buckwheat Bread",
+	"item.sandwiches_galore.buckwheat_bread_slice": "Slice of Buckwheat Bread",
+	
+	"item.sandwiches_galore.wheat_flour": "Wheat Flour",
+	"item.sandwiches_galore.wheat_dough": "Wheat Dough",
+	"item.sandwiches_galore.wheat_bread": "Wheat Bread",
+	"item.sandwiches_galore.wheat_bread_slice": "Slice of Wheat Bread",
+	
+	"item.sandwiches_galore.dried_nether_sprouts": "Dried Nether Sprouts",
+	"item.sandwiches_galore.nether_sprout_flour": "Nether Sprout Flour",
+	"item.sandwiches_galore.nether_sprout_dough": "Nether Sprout Dough",
+	"item.sandwiches_galore.nether_sprout_bread": "Nether Sprout Bread",
+	"item.sandwiches_galore.nether_sprout_bread_slice": "Slice of Nether Sprout Bread",
+	
+	"item.sandwiches_galore.sandwich_base": "Sandwich",
+	"item.sandwiches_galore.sandwich.cooked_beef": "Steak Sandwich",
+	"item.sandwiches_galore.sandwich.pufferfish": "Pufferfish Sandwich",
+	"item.sandwiches_galore.sandwich.golden": "§bGolden Sandwich",
+	"item.sandwiches_galore.sandwich.apple": "Apple Sandwich",
+	"item.sandwiches_galore.sandwich.cooked_porkchop": "Porkchop Sandwich",
+	"item.sandwiches_galore.sandwich.cooked_mutton": "Mutton Sandwich",
+	
+	"item.sandwiches_galore.corncob": "Corncob",
+	"item.sandwiches_galore.corn_seeds": "Corn Kernels",
+	"item.sandwiches_galore.corn_flour": "Corn Flour",
+	"item.sandwiches_galore.corn_dough": "Corn Dough",
+	"item.sandwiches_galore.cornbread": "Cornbread",
+	"item.sandwiches_galore.cornbread_slice": "Slice of Cornbread"
+}

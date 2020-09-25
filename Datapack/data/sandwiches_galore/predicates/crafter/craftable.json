@@ -1,0 +1,37 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "sandwiches_galore:crafter/craftables/knife"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "sandwiches_galore:crafter/craftables/oven"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "sandwiches_galore:crafter/craftables/corn_seeds"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "sandwiches_galore:crafter/craftables/whisk"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "sandwiches_galore:crafter/craftables/grinder"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "sandwiches_galore:crafter/craftables/cutting_board"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "sandwiches_galore:crafter/craftables/sandwich_table"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "sandwiches_galore:crafter/craftables/large_bowl"
+        }
+    ]
+}
