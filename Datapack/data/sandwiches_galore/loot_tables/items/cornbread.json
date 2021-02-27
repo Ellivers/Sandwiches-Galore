@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Cornbread:1b,CustomModelData:6710003}"
+                            "tag": "{SG:{Cornbread:1b,Bread:1b},CustomModelData:6710003}"
                         }
                     ]
                 }

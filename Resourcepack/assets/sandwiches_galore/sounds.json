@@ -2,24 +2,24 @@
   "item.whisk.use": {
     "sounds": [
       "sandwiches_galore:whisk1",
-	  "sandwiches_galore:whisk2",
-	  "sandwiches_galore:whisk3"
+	    "sandwiches_galore:whisk2",
+	    "sandwiches_galore:whisk3"
     ],
 	"subtitle": "subtitles.sandwiches_galore.item.whisk.use"
   },
   "item.knife.cut": {
     "sounds": [
       "sandwiches_galore:bread_cut1",
-	  "sandwiches_galore:bread_cut2",
-	  "sandwiches_galore:bread_cut3"
+	    "sandwiches_galore:bread_cut2",
+	    "sandwiches_galore:bread_cut3"
     ],
 	"subtitle": "subtitles.sandwiches_galore.item.knife.cut"
   },
   "block.grinder.grind": {
     "sounds": [
       "sandwiches_galore:grinder1",
-	  "sandwiches_galore:grinder2",
-	  "sandwiches_galore:grinder3"
+	    "sandwiches_galore:grinder2",
+	    "sandwiches_galore:grinder3"
     ],
 	"subtitle": "subtitles.sandwiches_galore.block.grinder.grind"
   }

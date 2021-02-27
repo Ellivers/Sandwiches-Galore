@@ -81,7 +81,7 @@
                     "function": "minecraft:explosion_decay"
                   }
                 ],
-                "name": "sandwiches_galore:items/corn_seeds"
+                "name": "sandwiches_galore:items/corn_kernels"
               },
               {
                 "type": "minecraft:item",

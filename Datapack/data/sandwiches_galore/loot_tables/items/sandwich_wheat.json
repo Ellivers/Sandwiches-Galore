@@ -24,7 +24,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Sandwich:1b,Sandwich_Wheat:1b,CustomModelData:6710001,Items:[],NameLevel:0,FoodLevel:0}"
+                            "tag": "{SG:{Sandwich:1b,Sandwich_Wheat:1b,Items:[],NameLevel:0,FoodLevel:0},CustomModelData:6710001}"
                         }
                     ]
                 }

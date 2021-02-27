@@ -4,7 +4,7 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "nbt": "{BuckwheatFlour:1b}"
+                "nbt": "{SG:{BuckwheatFlour:1b}}"
             }
         }
     }

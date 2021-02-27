@@ -1,11 +1,10 @@
-#Flour
-execute if predicate sandwiches_galore:bowl/wheat_flour run function sandwiches_galore:bowl/input/wheat_flour
-execute if predicate sandwiches_galore:bowl/nether_sprout_flour run function sandwiches_galore:bowl/input/nether_sprout_flour
-execute if predicate sandwiches_galore:bowl/buckwheat_flour run function sandwiches_galore:bowl/input/buckwheat_flour
-execute if predicate sandwiches_galore:bowl/corn_flour run function sandwiches_galore:bowl/input/corn_flour
+scoreboard players set #temp sandwiches 0
 
-#Other
-execute if predicate sandwiches_galore:bowl/water_bottle run function sandwiches_galore:bowl/input/water_bottle
+execute if entity @s[tag=sg.bowl] run function sandwiches_galore:bowl/input.small_bowl
+execute if entity @s[tag=sg.large_bowl] run function sandwiches_galore:bowl/input.large_bowl
+
 execute if predicate sandwiches_galore:bowl/whisk run function sandwiches_galore:bowl/input/whisk
-execute if predicate sandwiches_galore:bowl/bottle run function sandwiches_galore:bowl/input/bottle
-execute if predicate sandwiches_galore:bowl/no run function sandwiches_galore:bowl/spit_back
+
+function #sandwiches_galore:bowl/input
+
+execute if score #temp sandwiches matches 0 run function sandwiches_galore:bowl/spit_back

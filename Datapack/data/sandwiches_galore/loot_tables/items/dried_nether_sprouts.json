@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{DriedNetherSprouts:1b,CustomModelData:6710009,Ground:1b}"
+                            "tag": "{SG:{DriedNetherSprouts:1b},CustomModelData:6710009}"
                         }
                     ]
                 }

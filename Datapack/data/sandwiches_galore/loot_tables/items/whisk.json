@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Whisk:1b,CustomModelData:6710001}"
+                            "tag": "{SG:{Whisk:1b},CustomModelData:6710001}"
                         }
                     ]
                 }

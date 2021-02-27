@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "no": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{SG:{GUI_Item:1b}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "sandwiches_galore:triggers/gui_item_get"
+    }
+}

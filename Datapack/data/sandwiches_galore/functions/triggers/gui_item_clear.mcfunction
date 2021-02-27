@@ -1,0 +1,1 @@
+clear @a #sandwiches_galore:all{SG:{GUI_Item:1b}}

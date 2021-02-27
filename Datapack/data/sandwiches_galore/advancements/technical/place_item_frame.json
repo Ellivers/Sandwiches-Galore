@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "place": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:item_frame",
+                    "nbt": "{EntityTag:{Tags:[\"sandwiches_galore\",\"sg.place\"]}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sandwiches_galore:place/player_place"
+    }
+}

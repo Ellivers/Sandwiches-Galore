@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:6710008,Crafter:1b,EntityTag:{Tags:[\"sandwiches_galore\",\"place\",\"place_crafter\"],Invisible:1b}}"
+                            "tag": "{CustomModelData:6710008,SG:{Crafter:1b},EntityTag:{Tags:[\"sandwiches_galore\",\"sg.place\",\"sg.place.crafter\"],Invisible:1b}}"
                         }
                     ]
                 }

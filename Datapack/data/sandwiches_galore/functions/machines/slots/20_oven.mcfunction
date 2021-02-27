@@ -1,2 +1,3 @@
-data modify entity @s ArmorItems[2] set from block ~.01 ~ ~ Items[{Slot:20b}]
-execute unless predicate sandwiches_galore:gui/fuel_items run function sandwiches_galore:machines/reject_slots/20
+data modify entity @s ArmorItems[2] set value {}
+data modify entity @s ArmorItems[2] set from storage sandwiches:galore Items[{Slot:20b}]
+execute unless predicate sandwiches_galore:oven/fuel_items run function sandwiches_galore:machines/reject_slots/20

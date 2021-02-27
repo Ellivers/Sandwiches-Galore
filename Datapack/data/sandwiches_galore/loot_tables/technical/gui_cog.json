@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gray_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:6710001,SG:{GUI_Item:1b}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "sandwiches_galore.gui.progress",
+                                "italic": false
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

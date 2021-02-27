@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:6710006,EntityTag:{Tags:[sandwiches_galore,place,place_large_bowl],Invisible:1b}}"
+                            "tag": "{CustomModelData:6710006,SG:{LargeBowl:1b},EntityTag:{Tags:[sandwiches_galore,sg.place,sg.place.large_bowl],Invisible:1b}}"
                         }
                     ]
                 }

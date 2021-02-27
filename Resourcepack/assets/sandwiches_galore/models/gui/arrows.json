@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"texture_size": [24, 17],
 	"textures": {
@@ -17,6 +16,9 @@
 	],
 	"gui_light": "front",
 	"display": {
+		"ground": {
+			"scale": [0, 0, 0]
+		},
 		"gui": {
 			"rotation": [0, -180, 0],
 			"translation": [2, 0, 0]

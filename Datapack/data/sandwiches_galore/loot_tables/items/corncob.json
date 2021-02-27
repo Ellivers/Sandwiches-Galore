@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Corncob:1b,Grindable:1b,CustomModelData:6710300}"
+                            "tag": "{SG:{Corncob:1b},CustomModelData:6710300}"
                         }
                     ]
                 }

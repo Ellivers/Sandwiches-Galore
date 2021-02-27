@@ -2,23 +2,20 @@
     "condition": "minecraft:alternative",
     "terms": [
         {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
+            "condition": "minecraft:location_check",
             "predicate": {
-                "equipment": {
-                    "chest": {
-                        "nbt": "{Sandwich:1b,GUI_Item:1b}"
-                    }
+                "block": {
+                    "nbt": "{Items:[{tag:{SG:{GUI_Item:1b}},Slot:16b}]}"
                 }
             }
         },
         {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-                "equipment": {
-                    "chest": {
-                        "item": "minecraft:air"
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "block": {
+                        "nbt": "{Items:[{Slot:16b}]}"
                     }
                 }
             }

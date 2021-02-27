@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{WheatDough:1b,CustomModelData:6710003,Bakeable:1b}"
+                            "tag": "{SG:{WheatDough:1b,Bakeable:1b},CustomModelData:6710003}"
                         }
                     ]
                 }

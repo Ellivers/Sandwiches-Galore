@@ -1,0 +1,752 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:1b,tag:{SG:{Corncob:1b}}}]}"
+                }
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:2b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:10b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:12b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:19b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:20b}]}"
+                }
+              }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:21b}]}"
+                }
+              }
+          }
+        ]
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:2b,tag:{SG:{Corncob:1b}}}]}"
+                }
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:1b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:10b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:12b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:19b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:20b}]}"
+                }
+              }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:21b}]}"
+                }
+              }
+          }
+        ]
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:3b,tag:{SG:{Corncob:1b}}}]}"
+                }
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:1b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:2b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:10b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:12b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:19b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:20b}]}"
+                }
+              }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:21b}]}"
+                }
+              }
+          }
+        ]
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:10b,tag:{SG:{Corncob:1b}}}]}"
+                }
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:2b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:1b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:12b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:19b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:20b}]}"
+                }
+              }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:21b}]}"
+                }
+              }
+          }
+        ]
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:11b,tag:{SG:{Corncob:1b}}}]}"
+                }
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:2b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:10b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:1b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:12b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:19b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:20b}]}"
+                }
+              }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:21b}]}"
+                }
+              }
+          }
+        ]
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:12b,tag:{SG:{Corncob:1b}}}]}"
+                }
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:2b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:10b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:1b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:19b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:20b}]}"
+                }
+              }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:21b}]}"
+                }
+              }
+          }
+        ]
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:19b,tag:{SG:{Corncob:1b}}}]}"
+                }
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:2b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:10b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:12b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:1b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:20b}]}"
+                }
+              }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:21b}]}"
+                }
+              }
+          }
+        ]
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:20b,tag:{SG:{Corncob:1b}}}]}"
+                }
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:2b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:10b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:12b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:19b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:1b}]}"
+                }
+              }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:21b}]}"
+                }
+              }
+          }
+        ]
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:21b,tag:{SG:{Corncob:1b}}}]}"
+                }
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:2b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:10b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:12b}]}"
+                }
+              }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:19b}]}"
+              }
+            }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:20b}]}"
+                }
+              }
+          },
+          {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:1b}]}"
+                }
+              }
+          }
+        ]
+      }
+    }
+  ]
+}

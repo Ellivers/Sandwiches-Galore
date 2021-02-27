@@ -11,7 +11,7 @@
 		{"predicate": {"custom_model_data": 6710004}, "model": "sandwiches_galore:item/cutting_board"},
 		{"predicate": {"custom_model_data": 6710005}, "model": "sandwiches_galore:item/sandwich_table"},
 		{"predicate": {"custom_model_data": 6710006}, "model": "sandwiches_galore:item/large_bowl"},
-		{"predicate": {"custom_model_data": 6710007}, "model": "sandwiches_galore:item/corn_seeds"},
+		{"predicate": {"custom_model_data": 6710007}, "model": "sandwiches_galore:item/corn_kernels"},
 		{"predicate": {"custom_model_data": 6710008}, "model": "sandwiches_galore:item/crafter"}
     ]
 }

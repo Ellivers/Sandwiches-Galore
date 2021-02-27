@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{NetherSproutFlour:1b,CustomModelData:6710005,Ground:1b}"
+                            "tag": "{SG:{NetherSproutFlour:1b},CustomModelData:6710005}"
                         }
                     ]
                 }

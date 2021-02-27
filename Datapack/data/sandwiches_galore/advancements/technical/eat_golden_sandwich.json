@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "hit": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+            "item": {
+                "nbt": "{Items:[{Name:\"gold?\"}]}"
+            }
+        }
+      }
+    },
+    "rewards": {
+      "function": "sandwiches_galore:triggers/consume/golden_sandwich"
+    }
+}

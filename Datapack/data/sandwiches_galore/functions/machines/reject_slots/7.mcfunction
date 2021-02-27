@@ -1,4 +1,3 @@
-data remove block ~ ~ ~ Items[{Slot:7b}]
-execute at @p[tag=!global.ignore] run loot spawn ~ ~ ~ loot sandwiches_galore:items/magic_item
-data modify entity @e[type=minecraft:item,nbt={Item:{tag:{Special:1b,SandwichesGalore:1b}}},limit=1] Item set from entity @s ArmorItems[2]
-
+replaceitem block ~ ~ ~ container.7 air
+data modify storage sandwiches:galore Item1 set from storage sandwiches:galore Items[{Slot:7b}]
+function sandwiches_galore:machines/reject_slots/common

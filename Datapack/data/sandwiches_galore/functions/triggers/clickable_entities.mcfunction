@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:armor_stand,sort=arbitrary,tag=sandwiches_galore,tag=sg.clickable] at @s run function sandwiches_galore:triggers/clickable_entities2
+advancement revoke @s only sandwiches_galore:technical/right_click_armor_stand

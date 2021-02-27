@@ -5,7 +5,7 @@
         "equipment": {
             "mainhand": {
                 "item": "minecraft:light_gray_stained_glass_pane",
-                "nbt": "{DetectCornRC:1b}"
+                "nbt": "{SG:{DetectCornRC:1b}}"
             }
         }
     }

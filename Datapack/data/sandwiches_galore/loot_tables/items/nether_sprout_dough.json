@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{NetherSproutDough:1b,CustomModelData:6710006,Bakeable:1b}"
+                            "tag": "{SG:{NetherSproutDough:1b,Bakeable:1b},CustomModelData:6710006}"
                         }
                     ]
                 }

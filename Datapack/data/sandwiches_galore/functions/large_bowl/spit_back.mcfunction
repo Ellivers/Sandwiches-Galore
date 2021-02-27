@@ -1,3 +1,0 @@
-loot spawn ~ ~ ~ loot sandwiches_galore:items/magic_item
-data modify entity @e[type=minecraft:item,nbt={Item:{tag:{Special:1b,SandwichesGalore:1b}}},limit=1] Item set from entity @s HandItems[0]
-data remove entity @s HandItems[0]

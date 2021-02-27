@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{BuckwheatFlour:1b,CustomModelData:6710002,Ground:1b}"
+                            "tag": "{SG:{BuckwheatFlour:1b},CustomModelData:6710002}"
                         }
                     ]
                 }

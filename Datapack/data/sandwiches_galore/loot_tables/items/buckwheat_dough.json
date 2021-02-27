@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{BuckwheatDough:1b,CustomModelData:6710004,Bakeable:1b}"
+                            "tag": "{SG:{BuckwheatDough:1b,Bakeabe:1b},CustomModelData:6710004}"
                         }
                     ]
                 }

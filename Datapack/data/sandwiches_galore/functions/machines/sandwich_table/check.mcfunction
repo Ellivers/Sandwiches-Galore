@@ -1,3 +1,3 @@
-data modify storage sandwiches:sandwich_table Items set from block ~ ~ ~ Items
-execute if predicate sandwiches_galore:sandwich_table/bread_slice run function sandwiches_galore:machines/sandwich_table/check_slice
-execute if predicate sandwiches_galore:sandwich_table/sandwich if predicate sandwiches_galore:sandwich_table/sandwichable2 run function sandwiches_galore:machines/sandwich_table/preview/sandwich
+execute if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{BreadSlice:1b}}},{Slot:13b,tag:{SG:{BreadSlice:1b}}}]} run function sandwiches_galore:machines/sandwich_table/check_slice
+execute if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{Sandwich:1b}}},{Slot:13b}]} run function sandwiches_galore:machines/sandwich_table/preview/sandwich
+function #sandwiches_galore:sandwich_table/preview

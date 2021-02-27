@@ -4,7 +4,7 @@
     "predicate": {
         "equipment": {
             "head": {
-                "nbt": "{Cornbread:1b}"
+                "nbt": "{SG:{Cornbread:1b}}"
             }
         }
     }

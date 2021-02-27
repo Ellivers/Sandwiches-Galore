@@ -1,15 +1,39 @@
-data modify entity @s ArmorItems[2] set from block ~.01 ~ ~ Items[{Slot:0b}]
+data modify storage sandwiches:galore Items set from block ~ ~ ~ Items
 
-execute if data block ~.01 ~ ~ Items[{Slot:1b}] if data block ~.01 ~ ~ Items[{Slot:2b}] if data block ~.01 ~ ~ Items[{Slot:3b}] if data block ~.01 ~ ~ Items[{Slot:10b}] if data block ~.01 ~ ~ Items[{Slot:11b}] if data block ~.01 ~ ~ Items[{Slot:12b}] if data block ~.01 ~ ~ Items[{Slot:19b}] if data block ~.01 ~ ~ Items[{Slot:20b}] if data block ~.01 ~ ~ Items[{Slot:21b}] run function sandwiches_galore:machines/reject_slots/0
+scoreboard players reset #slot_1 sandwiches
+scoreboard players reset #slot_2 sandwiches
+scoreboard players reset #slot_3 sandwiches
 
-execute if data block ~.01 ~ ~ Items[{Slot:1b}] if data block ~.01 ~ ~ Items[{Slot:2b}] if data block ~.01 ~ ~ Items[{Slot:3b}] if data block ~.01 ~ ~ Items[{Slot:10b}] if data block ~.01 ~ ~ Items[{Slot:11b}] if data block ~.01 ~ ~ Items[{Slot:12b}] if data block ~.01 ~ ~ Items[{Slot:19b}] if data block ~.01 ~ ~ Items[{Slot:20b}] unless data block ~.01 ~ ~ Items[{Slot:21b}] run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 21b
-execute if data block ~.01 ~ ~ Items[{Slot:1b}] if data block ~.01 ~ ~ Items[{Slot:2b}] if data block ~.01 ~ ~ Items[{Slot:3b}] if data block ~.01 ~ ~ Items[{Slot:10b}] if data block ~.01 ~ ~ Items[{Slot:11b}] if data block ~.01 ~ ~ Items[{Slot:12b}] if data block ~.01 ~ ~ Items[{Slot:19b}] unless data block ~.01 ~ ~ Items[{Slot:20b}] run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 20b
-execute if data block ~.01 ~ ~ Items[{Slot:1b}] if data block ~.01 ~ ~ Items[{Slot:2b}] if data block ~.01 ~ ~ Items[{Slot:3b}] if data block ~.01 ~ ~ Items[{Slot:10b}] if data block ~.01 ~ ~ Items[{Slot:11b}] if data block ~.01 ~ ~ Items[{Slot:12b}] unless data block ~.01 ~ ~ Items[{Slot:19b}] run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 19b
+scoreboard players reset #slot_10 sandwiches
+scoreboard players reset #slot_11 sandwiches
+scoreboard players reset #slot_12 sandwiches
 
-execute if data block ~.01 ~ ~ Items[{Slot:1b}] if data block ~.01 ~ ~ Items[{Slot:2b}] if data block ~.01 ~ ~ Items[{Slot:3b}] if data block ~.01 ~ ~ Items[{Slot:10b}] if data block ~.01 ~ ~ Items[{Slot:11b}] unless data block ~.01 ~ ~ Items[{Slot:12b}] run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 12b
-execute if data block ~.01 ~ ~ Items[{Slot:1b}] if data block ~.01 ~ ~ Items[{Slot:2b}] if data block ~.01 ~ ~ Items[{Slot:3b}] if data block ~.01 ~ ~ Items[{Slot:10b}] unless data block ~.01 ~ ~ Items[{Slot:11b}] run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 11b
-execute if data block ~.01 ~ ~ Items[{Slot:1b}] if data block ~.01 ~ ~ Items[{Slot:2b}] if data block ~.01 ~ ~ Items[{Slot:3b}] unless data block ~.01 ~ ~ Items[{Slot:10b}] run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 10b
+scoreboard players reset #slot_19 sandwiches
+scoreboard players reset #slot_20 sandwiches
+scoreboard players reset #slot_21 sandwiches
 
-execute if data block ~.01 ~ ~ Items[{Slot:1b}] if data block ~.01 ~ ~ Items[{Slot:2b}] unless data block ~.01 ~ ~ Items[{Slot:3b}] run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 3b
-execute if data block ~.01 ~ ~ Items[{Slot:1b}] unless data block ~.01 ~ ~ Items[{Slot:2b}] run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 2b
-execute unless data block ~.01 ~ ~ Items[{Slot:1b}] run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 1b
+execute store success score #slot_1 sandwiches if data storage sandwiches:galore Items[{Slot:1b}]
+execute store success score #slot_2 sandwiches if data storage sandwiches:galore Items[{Slot:2b}]
+execute store success score #slot_3 sandwiches if data storage sandwiches:galore Items[{Slot:3b}]
+
+execute store success score #slot_10 sandwiches if data storage sandwiches:galore Items[{Slot:10b}]
+execute store success score #slot_11 sandwiches if data storage sandwiches:galore Items[{Slot:11b}]
+execute store success score #slot_12 sandwiches if data storage sandwiches:galore Items[{Slot:12b}]
+
+execute store success score #slot_19 sandwiches if data storage sandwiches:galore Items[{Slot:19b}]
+execute store success score #slot_20 sandwiches if data storage sandwiches:galore Items[{Slot:20b}]
+execute store success score #slot_21 sandwiches if data storage sandwiches:galore Items[{Slot:21b}]
+
+execute if score #slot_1 sandwiches matches 1 if score #slot_2 sandwiches matches 1 if score #slot_3 sandwiches matches 1 if score #slot_10 sandwiches matches 1 if score #slot_11 sandwiches matches 1 if score #slot_12 sandwiches matches 1 if score #slot_19 sandwiches matches 1 if score #slot_20 sandwiches matches 1 if score #slot_21 sandwiches matches 1 run function sandwiches_galore:machines/reject_slots/0
+
+execute if score #slot_1 sandwiches matches 1 if score #slot_2 sandwiches matches 1 if score #slot_3 sandwiches matches 1 if score #slot_10 sandwiches matches 1 if score #slot_11 sandwiches matches 1 if score #slot_12 sandwiches matches 1 if score #slot_19 sandwiches matches 1 if score #slot_20 sandwiches matches 1 unless score #slot_21 sandwiches matches 1 run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 21b
+execute if score #slot_1 sandwiches matches 1 if score #slot_2 sandwiches matches 1 if score #slot_3 sandwiches matches 1 if score #slot_10 sandwiches matches 1 if score #slot_11 sandwiches matches 1 if score #slot_12 sandwiches matches 1 if score #slot_19 sandwiches matches 1 unless score #slot_20 sandwiches matches 1 run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 20b
+execute if score #slot_1 sandwiches matches 1 if score #slot_2 sandwiches matches 1 if score #slot_3 sandwiches matches 1 if score #slot_10 sandwiches matches 1 if score #slot_11 sandwiches matches 1 if score #slot_12 sandwiches matches 1 unless score #slot_19 sandwiches matches 1 run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 19b
+
+execute if score #slot_1 sandwiches matches 1 if score #slot_2 sandwiches matches 1 if score #slot_3 sandwiches matches 1 if score #slot_10 sandwiches matches 1 if score #slot_11 sandwiches matches 1 unless score #slot_12 sandwiches matches 1 run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 12b
+execute if score #slot_1 sandwiches matches 1 if score #slot_2 sandwiches matches 1 if score #slot_3 sandwiches matches 1 if score #slot_10 sandwiches matches 1 unless score #slot_11 sandwiches matches 1 run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 11b
+execute if score #slot_1 sandwiches matches 1 if score #slot_2 sandwiches matches 1 if score #slot_3 sandwiches matches 1 unless score #slot_10 sandwiches matches 1 run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 10b
+
+execute if score #slot_1 sandwiches matches 1 if score #slot_2 sandwiches matches 1 unless score #slot_3 sandwiches matches 1 run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 3b
+execute if score #slot_1 sandwiches matches 1 unless score #slot_2 sandwiches matches 1 run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 2b
+execute unless score #slot_1 sandwiches matches 1 run data modify block ~ ~ ~ Items[{Slot:0b}].Slot set value 1b

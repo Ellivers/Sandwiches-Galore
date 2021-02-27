@@ -1,0 +1,2 @@
+advancement revoke @s only sandwiches_galore:technical/pick_up_gui_item
+schedule function sandwiches_galore:triggers/gui_item_clear 1t

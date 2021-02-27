@@ -1,0 +1,1 @@
+execute if score #temp qcb.dummy matches 1 align xyz positioned ~.5 ~.5 ~.5 if entity @e[type=minecraft:armor_stand,tag=sandwiches_galore,distance=...1] run scoreboard players set #temp qcb.dummy 0

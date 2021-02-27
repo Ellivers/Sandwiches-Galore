@@ -1,2 +1,4 @@
-execute unless entity @s[tag=flour] run function sandwiches_galore:bowl/add/wheat_flour
-execute if entity @s[tag=flour] run function sandwiches_galore:bowl/spit_back
+scoreboard players set #temp sandwiches 1
+
+execute if entity @s[tag=sg.has_flour] run function sandwiches_galore:bowl/spit_back
+execute unless entity @s[tag=sg.has_flour] run function sandwiches_galore:bowl/add/wheat_flour

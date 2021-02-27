@@ -1,13 +1,18 @@
-data modify block ~ ~ ~ Items[{Slot:13b,tag:{GUI_Item:1b}}].tag.CustomModelData set value 6710024
-#define storage sandwiches:oven_gui
-data modify storage sandwiches:oven_gui Items set from block ~ ~ ~ Items
-data modify entity @s ArmorItems[0] set value {}
-data modify entity @s ArmorItems[0] set from storage sandwiches:oven_gui Items[{Slot:15b}]
+data modify block ~ ~ ~ Items[{Slot:13b,tag:{SG:{GUI_Item:1b}}}].tag.CustomModelData set value 6710024
 #execute if predicate sandwiches_galore:gui/count_64 run data modify block ~ ~ ~ Items[{Slot:13b}].CustomModelData set value 6710023
-execute if predicate sandwiches_galore:gui/bakeable_items2 unless data storage sandwiches:oven_gui Items[{Slot:2b,Count:1b}] if predicate sandwiches_galore:gui/is_bread unless predicate sandwiches_galore:gui/count_64 store result block ~ ~ ~ Items[{Slot:2b}].Count byte 1 run data get storage sandwiches:oven_gui Items[{Slot:2b}].Count 0.9999999999
-execute if predicate sandwiches_galore:gui/bakeable_items2 if data storage sandwiches:oven_gui Items[{Slot:2b,Count:1b}] if predicate sandwiches_galore:gui/is_bread unless predicate sandwiches_galore:gui/count_64 run data remove block ~ ~ ~ Items[{Slot:2b}]
-execute if data storage sandwiches:oven_gui Items[{Slot:2b,tag:{BuckwheatDough:1b}}] if predicate sandwiches_galore:gui/is_bread run function sandwiches_galore:machines/oven/bake/buckwheat
-execute if data storage sandwiches:oven_gui Items[{Slot:2b,tag:{WheatDough:1b}}] if predicate sandwiches_galore:gui/is_bread run function sandwiches_galore:machines/oven/bake/wheat
-execute if data storage sandwiches:oven_gui Items[{Slot:2b,tag:{NetherSproutDough:1b}}] if predicate sandwiches_galore:gui/is_bread run function sandwiches_galore:machines/oven/bake/nether_sprout
-execute if data storage sandwiches:oven_gui Items[{Slot:2b,tag:{CornDough:1b}}] if predicate sandwiches_galore:gui/is_bread run function sandwiches_galore:machines/oven/bake/corn
-execute if data storage sandwiches:oven_gui Items[{Slot:2b,id:"minecraft:nether_sprouts"}] if predicate sandwiches_galore:gui/is_bread run function sandwiches_galore:machines/oven/bake/dried_nether_sprouts
+
+function sandwiches_galore:machines/oven/validate_item
+
+scoreboard players set #temp2 sandwiches 0
+execute unless data storage sandwiches:galore Items[{Slot:15b}] run scoreboard players set #temp2 sandwiches 1
+execute if score #temp2 sandwiches matches 0 if data storage sandwiches:galore Items[{Slot:15b,tag:{SG:{Bread:1b}}}] run scoreboard players set #temp2 sandwiches 1
+execute if score #temp2 sandwiches matches 0 if data storage sandwiches:galore Items[{Slot:15b,tag:{SG:{DriedNetherSprouts:1b}}}] run scoreboard players set #temp2 sandwiches 1
+execute if score #temp2 sandwiches matches 0 run function #sandwiches_galore:oven/check_output_slot
+
+execute if score #temp sandwiches matches 1 if score #temp2 sandwiches matches 1 unless data storage sandwiches:galore Items[{Slot:15b,Count:64b}] store result block ~ ~ ~ Items[{Slot:2b}].Count byte 1 run data get storage sandwiches:galore Items[{Slot:2b}].Count 0.9999999999
+execute if data storage sandwiches:galore Items[{Slot:2b,tag:{SG:{BuckwheatDough:1b}}}] if score #temp2 sandwiches matches 1 run function sandwiches_galore:machines/oven/bake/buckwheat
+execute if data storage sandwiches:galore Items[{Slot:2b,tag:{SG:{WheatDough:1b}}}] if score #temp2 sandwiches matches 1 run function sandwiches_galore:machines/oven/bake/wheat
+execute if data storage sandwiches:galore Items[{Slot:2b,tag:{SG:{NetherSproutDough:1b}}}] if score #temp2 sandwiches matches 1 run function sandwiches_galore:machines/oven/bake/nether_sprout
+execute if data storage sandwiches:galore Items[{Slot:2b,tag:{SG:{CornDough:1b}}}] if score #temp2 sandwiches matches 1 run function sandwiches_galore:machines/oven/bake/corn
+execute if data storage sandwiches:galore Items[{Slot:2b,id:"minecraft:nether_sprouts"}] if score #temp2 sandwiches matches 1 run function sandwiches_galore:machines/oven/bake/dried_nether_sprouts
+function #sandwiches_galore:oven/output

@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "sandwiches_galore:items/corn_seeds",
+                    "name": "sandwiches_galore:items/corn_kernels",
                     "functions": [
                         {
                             "function": "set_count",
@@ -25,7 +25,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "sandwiches_galore:items/corn_seeds"
+                    "name": "sandwiches_galore:items/corn_kernels"
                 }
             ]
         }

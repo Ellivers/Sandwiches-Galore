@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "sandwiches_galore:block/oven_bottom_top",
 		"3": "sandwiches_galore:block/oven_sides",
@@ -22,7 +21,7 @@
 	],
 	"display": {
 		"head": {
-			"translation": [0, -14.67, 0],
+			"translation": [0, -32.95, 0],
 			"scale": [2.289, 2.289, 2.289]
 		}
 	}

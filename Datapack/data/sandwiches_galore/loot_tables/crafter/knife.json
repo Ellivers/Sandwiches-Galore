@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{GUI_Item:1b,CustomModelData:6710001}"
+                            "tag": "{SG:{GUI_Item:1b},CustomModelData:6710001}"
                         }
                     ]
                 }

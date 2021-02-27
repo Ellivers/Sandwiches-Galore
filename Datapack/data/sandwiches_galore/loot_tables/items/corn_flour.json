@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{CornFlour:1b,CustomModelData:6710007,Ground:1b}"
+                            "tag": "{SG:{CornFlour:1b},CustomModelData:6710007}"
                         }
                     ]
                 }

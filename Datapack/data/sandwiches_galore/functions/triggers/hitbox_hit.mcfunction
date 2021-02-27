@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:pig,tag=sg.hitbox,sort=nearest,limit=1,nbt={HurtTime:10s}] at @s run function sandwiches_galore:triggers/hitbox_hit2
+advancement revoke @s only sandwiches_galore:technical/hit_hitbox

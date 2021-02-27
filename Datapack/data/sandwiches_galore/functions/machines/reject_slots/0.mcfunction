@@ -1,4 +1,8 @@
-data remove block ~ ~ ~ Items[{Slot:0b}]
-execute at @p[tag=!global.ignore,distance=..8,gamemode=!spectator] run loot spawn ~ ~ ~ loot sandwiches_galore:items/magic_item
-execute unless entity @a[distance=..8,gamemode=!spectator] run loot spawn ~ ~.8 ~ loot sandwiches_galore:items/magic_item
-data modify entity @e[type=minecraft:item,nbt={Item:{tag:{Special:1b,SandwichesGalore:1b}}},limit=1] Item set from entity @s ArmorItems[2]
+replaceitem block ~ ~ ~ container.0 air
+data modify storage sandwiches:galore Item1 set from storage sandwiches:galore Items[{Slot:0b}]
+function sandwiches_galore:machines/reject_slots/return_to_sender
+scoreboard players operation #temp_id sandwiches = @s sg.gui_id
+execute if score #temp_rej sandwiches matches 0 store result score #temp_rej sandwiches as @a if score @s sg.gui_id = #temp_id sandwiches at @s run loot spawn ~ ~ ~ mine -30000000 0 8020 air{drop_contents:1b}
+execute if score #temp_rej sandwiches matches 0 run loot spawn ~ ~ ~ mine -30000000 0 8020 air{drop_contents:1b}
+
+data modify entity @e[type=minecraft:item,nbt={Age:0s},sort=nearest,limit=1] PickupDelay set value 0s

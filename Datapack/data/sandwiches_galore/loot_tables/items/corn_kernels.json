@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "translate": "item.sandwiches_galore.corn_kernels",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {"translate":"sandwiches_galore.item_lore","color":"dark_gray","italic":false}
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SG:{CornKernels:1b},CustomModelData:6710007,EntityTag:{Tags:[\"sandwiches_galore\",\"sg.place\",\"sg.place.corn\"],Invisible:1b}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

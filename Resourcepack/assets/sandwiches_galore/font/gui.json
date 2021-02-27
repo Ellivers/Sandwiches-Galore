@@ -5,6 +5,7 @@
 		{ "type": "bitmap", "file": "sandwiches_galore:gui/sandwich_table.png", "height": 82, "ascent": 12,   "chars": [ "\uE673" ] },
 		{ "type": "bitmap", "file": "sandwiches_galore:gui/crafter.png", "height": 82, "ascent": 12,   "chars": [ "\uE674" ] },
 		{
+            "comment": "Thanks Amber!",
             "type": "bitmap",
             "file": "sandwiches_galore:gui/negative_space_pixel.png",
             "ascent": -32768,

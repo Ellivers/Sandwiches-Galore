@@ -1,23 +1,21 @@
-execute if data block ~.01 ~ ~ Items[{Slot:2b}] run function sandwiches_galore:machines/slots/2
-execute if data block ~.01 ~ ~ Items[{Slot:10b}] run function sandwiches_galore:machines/slots/10
-execute if data block ~.01 ~ ~ Items[{Slot:16b}] run function sandwiches_galore:machines/slots/16
-execute if data block ~.01 ~ ~ Items[{Slot:20b}] run function sandwiches_galore:machines/slots/20
-execute if data block ~.01 ~ ~ Items[{Slot:1b}] run function sandwiches_galore:machines/slots/1
-execute if data block ~.01 ~ ~ Items[{Slot:3b}] run function sandwiches_galore:machines/slots/3
-execute if data block ~.01 ~ ~ Items[{Slot:12b}] run function sandwiches_galore:machines/slots/12
-execute if data block ~.01 ~ ~ Items[{Slot:19b}] run function sandwiches_galore:machines/slots/19
-execute if data block ~.01 ~ ~ Items[{Slot:21b}] run function sandwiches_galore:machines/slots/21
-execute if data block ~.01 ~ ~ Items[{Slot:4b}] run function sandwiches_galore:machines/slots/4
-execute if data block ~.01 ~ ~ Items[{Slot:5b}] run function sandwiches_galore:machines/slots/5
-execute if data block ~.01 ~ ~ Items[{Slot:6b}] run function sandwiches_galore:machines/slots/6
-execute if data block ~.01 ~ ~ Items[{Slot:7b}] run function sandwiches_galore:machines/slots/7
-execute if data block ~.01 ~ ~ Items[{Slot:8b}] run function sandwiches_galore:machines/slots/8
-execute if data block ~.01 ~ ~ Items[{Slot:9b}] run function sandwiches_galore:machines/slots/9
-execute if data block ~.01 ~ ~ Items[{Slot:14b}] run function sandwiches_galore:machines/slots/14
-execute if data block ~.01 ~ ~ Items[{Slot:17b}] run function sandwiches_galore:machines/slots/17
-execute if data block ~.01 ~ ~ Items[{Slot:18b}] run function sandwiches_galore:machines/slots/18
-execute if data block ~.01 ~ ~ Items[{Slot:22b}] run function sandwiches_galore:machines/slots/22
-execute if data block ~.01 ~ ~ Items[{Slot:23b}] run function sandwiches_galore:machines/slots/23
-execute if data block ~.01 ~ ~ Items[{Slot:24b}] run function sandwiches_galore:machines/slots/24
-execute if data block ~.01 ~ ~ Items[{Slot:25b}] run function sandwiches_galore:machines/slots/25
-execute if data block ~.01 ~ ~ Items[{Slot:26b}] run function sandwiches_galore:machines/slots/26
+execute unless block ~ ~ ~ minecraft:barrel run function sandwiches_galore:break/grinder
+
+data modify storage sandwiches:galore Items set from block ~ ~ ~ Items
+execute if score $tickNBTChecks sandwiches matches 1 if block ~ ~ ~ minecraft:barrel[open=false] if data storage sandwiches:galore Items[{Slot:0b}] run function sandwiches_galore:machines/slots/0_grinder
+
+# Check input item
+execute store result score #tempcount sandwiches run data get storage sandwiches:galore Items[{Slot:11b}].Count
+scoreboard players set #temp sandwiches 0
+execute if score #temp sandwiches matches 0 if score #tempcount sandwiches matches 3.. if data storage sandwiches:galore Items[{id:"minecraft:wheat",Slot:11b}] run scoreboard players set #temp sandwiches 1
+execute if score #temp sandwiches matches 0 if score #tempcount sandwiches matches 8.. if data storage sandwiches:galore Items[{tag:{SG:{BuckwheatSeeds:1b}},Slot:11b}] run scoreboard players set #temp sandwiches 1
+execute if score #temp sandwiches matches 0 if score #tempcount sandwiches matches 5.. if data storage sandwiches:galore Items[{tag:{SG:{DriedNetherSprouts:1b}},Slot:11b}] run scoreboard players set #temp sandwiches 1
+execute if score #temp sandwiches matches 0 if score #tempcount sandwiches matches 2.. if data storage sandwiches:galore Items[{tag:{SG:{Corncob:1b}},Slot:11b}] run scoreboard players set #temp sandwiches 1
+execute if score #temp sandwiches matches 0 run function #sandwiches_galore:grinder/validate_item
+
+# Continue or stop the processing
+execute if score @s sg.process_timer = @s sg.process_timer if score #temp sandwiches matches 0 run function sandwiches_galore:machines/grinder/reset_process
+execute if score #temp sandwiches matches 1 unless data storage sandwiches:galore Items[{Slot:15b,Count:64b}] run function sandwiches_galore:machines/grinder/process_tick
+
+execute if entity @s[tag=sg.opened] run function sandwiches_galore:machines/grinder/open_tick
+
+execute if block ~ ~-1 ~ hopper run data modify block ~ ~-1 ~ TransferCooldown set value 2

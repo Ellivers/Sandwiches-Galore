@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{BuckwheatSeeds:1b,Grindable:1b,CustomModelData:6710001,EntityTag:{Tags:[\"sandwiches_galore\",\"place\",\"place_buckwheat\"],Invisible:1b}}"
+                            "tag": "{SG:{BuckwheatSeeds:1b},Grindable:1b,CustomModelData:6710001,EntityTag:{Tags:[\"sandwiches_galore\",\"sg.place\",\"sg.place.buckwheat\"],Invisible:1b}}"
                         }
                     ]
                 }

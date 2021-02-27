@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{NetherSproutBreadSlice:1b,BreadSlice:1b,CustomModelData:6710003}"
+                            "tag": "{SG:{NetherSproutBreadSlice:1b,BreadSlice:1b},CustomModelData:6710003}"
                         }
                     ]
                 }

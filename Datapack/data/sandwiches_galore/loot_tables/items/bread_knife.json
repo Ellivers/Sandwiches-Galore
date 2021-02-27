@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{BreadKnife:1b,CustomModelData:6710001}"
+                            "tag": "{SG:{BreadKnife:1b},CustomModelData:6710001}"
                         }
                     ]
                 }

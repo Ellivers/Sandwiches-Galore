@@ -1,0 +1,2 @@
+execute if block ~ ~-.1 ~ minecraft:air run function sandwiches_galore:break/bowl
+execute if entity @s[tag=!sg.has_water] if predicate sandwiches_galore:rain run function sandwiches_galore:bowl/add/water.rainfill

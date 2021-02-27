@@ -1,6 +1,11 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "sandwiches_galore:gui/heat_0"
-	}
+    "parent":"item/generated",
+    "textures": {
+        "layer0":"sandwiches_galore:gui/heat_0"
+    },
+    "display": {
+        "ground": {
+            "scale": [0, 0, 0]
+        }
+    }
 }

@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "nbt": "{SG:{LargeBowl:1b}}",
+                "count": {
+                    "min": 1
+                }
+            }
+        }
+    }
+}

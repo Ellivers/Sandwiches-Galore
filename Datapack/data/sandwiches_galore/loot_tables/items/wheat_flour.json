@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{WheatFlour:1b,CustomModelData:6710001,Ground:1b}"
+                            "tag": "{SG:{WheatFlour:1b},CustomModelData:6710001}"
                         }
                     ]
                 }

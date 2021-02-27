@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,tag=sandwiches_galore,tag=sg.machine,tag=!sg.opened] at @s if block ~ ~ ~ minecraft:barrel[open=true] run function sandwiches_galore:machines/open_gui
+advancement revoke @s only sandwiches_galore:technical/enter_gui

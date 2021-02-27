@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{WheatBread:1b}"
+                            "tag": "{SG:{WheatBread:1b,Bread:1b}}"
                         }
                     ]
                 }

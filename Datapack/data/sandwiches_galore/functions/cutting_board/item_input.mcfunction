@@ -1,3 +1,3 @@
-execute unless entity @s[predicate=sandwiches_galore:cutting_board/knife,tag=has_item] if entity @s[tag=has_item] run function sandwiches_galore:cutting_board/remove_item
-execute unless entity @s[predicate=sandwiches_galore:cutting_board/knife,tag=has_item] if predicate sandwiches_galore:holding_item unless predicate sandwiches_galore:cutting_board/none align xyz positioned ~.9 ~-.84 ~.87 run function sandwiches_galore:cutting_board/items/generic
+execute unless entity @s[predicate=sandwiches_galore:cutting_board/knife,tag=sg.has_item] if entity @s[tag=sg.has_item] run function sandwiches_galore:cutting_board/remove_item
+execute unless entity @s[predicate=sandwiches_galore:cutting_board/knife,tag=sg.has_item] if predicate sandwiches_galore:holding_item unless predicate sandwiches_galore:cutting_board/none positioned ^.9 ^-.84 ^.87 run function sandwiches_galore:cutting_board/items/generic
 execute if predicate sandwiches_galore:cutting_board/knife run function sandwiches_galore:cutting_board/items/knife

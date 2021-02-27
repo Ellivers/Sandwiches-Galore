@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{BuckwheatBread:1b,CustomModelData:6710001}"
+                            "tag": "{SG:{BuckwheatBread:1b,Bread:1b},CustomModelData:6710001}"
                         }
                     ]
                 }

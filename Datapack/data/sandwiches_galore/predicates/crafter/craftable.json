@@ -11,7 +11,7 @@
         },
         {
             "condition": "minecraft:reference",
-            "name": "sandwiches_galore:crafter/craftables/corn_seeds"
+            "name": "sandwiches_galore:crafter/craftables/corn_kernels"
         },
         {
             "condition": "minecraft:reference",

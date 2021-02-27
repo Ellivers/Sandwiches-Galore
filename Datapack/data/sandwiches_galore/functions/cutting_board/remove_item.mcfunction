@@ -1,3 +1,3 @@
-tag @s remove has_item
-execute align xyz positioned ~.9 ~-.84 ~.87 as @e[type=minecraft:armor_stand,tag=cutting_board_objects,distance=...1,sort=nearest,limit=1] run function sandwiches_galore:cutting_board/remove_item2
-execute align xyz positioned ~1 ~-.9 ~.5 as @e[type=minecraft:armor_stand,tag=cutting_board_objects,tag=slice,distance=...3] run function sandwiches_galore:cutting_board/remove_item2
+tag @s remove sg.has_item
+execute positioned ^.9 ^-.84 ^.87 as @e[type=minecraft:armor_stand,tag=sg.cutting_board_object,distance=...1,sort=nearest,limit=1] run function sandwiches_galore:cutting_board/remove_item2
+execute positioned ^1 ^-.9 ^.5 as @e[type=minecraft:armor_stand,tag=sg.cutting_board_object,tag=sg.slice,distance=...3] run function sandwiches_galore:cutting_board/remove_item2

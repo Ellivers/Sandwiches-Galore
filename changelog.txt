@@ -1,23 +1,5 @@
-- Added sandwiches
-- Added sandwich table
-- Added crafter
-- Added cutting board
-- Added bread slices
-- Added large bowl
-- Added the ability to bonemeal crops
-- Added sounds for using the whisk
-- Added grinder sounds
-- Removed drop crafting
-- Dried Nether Sprouts can now be made using a smoker
-- Added the ability to fill a bottle with water from a bowl that only contains water
-- Made the bowl smaller
-- When trying to fill a bowl with water in the nether, the water now evaporates
-- Small bowls can now be filled by with rain
-- Tweaked nether sprout textures
-- Tweaked the item drop chances of buckwheat
-- Tweaked some textures
-- Made the Dried Nether Sprouts name white
-- Fixed the whisk not losing durability when not in the overworld
-- Fixed weird behavior when putting an incorrect item in a furnace's fuel slot
-- Blocks can no longer be placed inside each other
-- Performance improvements
+- Cutting Boards can now be placed in all directions
+- GUI blocks now handle item transfering properly
+- GUI blocks no longer make barrel sounds when opened/closed
+- WIP API system for adding custom Sandwiches Galore recipes
+- Lots of performance improvements
