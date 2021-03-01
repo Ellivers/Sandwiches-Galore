@@ -16,6 +16,16 @@ execute in minecraft:overworld run forceload add -30000000 8020
 execute in minecraft:overworld run setblock -30000000 0 8020 air replace
 execute in minecraft:overworld run setblock -30000000 0 8020 yellow_shulker_box{Items:[{id:"minecraft:azure_bluet",Count:1b}]}
 
+execute in minecraft:the_nether run forceload remove -30000000 8020
+execute in minecraft:the_nether run forceload add -30000000 8020
+execute in minecraft:the_nether run setblock -30000000 0 8020 air replace
+execute in minecraft:the_nether run setblock -30000000 0 8020 yellow_shulker_box{Items:[{id:"minecraft:azure_bluet",Count:1b}]}
+
+execute in minecraft:the_end run forceload remove -30000000 8020
+execute in minecraft:the_end run forceload add -30000000 8020
+execute in minecraft:the_end run setblock -30000000 0 8020 air replace
+execute in minecraft:the_end run setblock -30000000 0 8020 yellow_shulker_box{Items:[{id:"minecraft:azure_bluet",Count:1b}]}
+
 team add no_collision
 team modify no_collision collisionRule never
 

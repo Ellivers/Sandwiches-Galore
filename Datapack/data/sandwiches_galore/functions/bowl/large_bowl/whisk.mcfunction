@@ -17,4 +17,4 @@ function #sandwiches_galore:bowl/whisk
 
 execute if score #sg.whisk_durability sandwiches matches 98.. at @a[advancements={sandwiches_galore:technical/right_click_armor_stand=true},gamemode=!creative,limit=1] run playsound minecraft:entity.item.break block @a ~ ~ ~
 execute if score #sg.whisk_durability sandwiches matches 98.. at @a[advancements={sandwiches_galore:technical/right_click_armor_stand=true},gamemode=!creative,limit=1] run particle minecraft:item minecraft:warped_fungus_on_a_stick{CustomModelData:6710001} ~ ~1 ~ .2 .3 .2 .08 20 force
-execute unless score #sg.whisk_durability sandwiches matches 98.. unless entity @a[advancements={sandwiches_galore:technical/right_click_armor_stand=true},gamemode=creative] run function sandwiches_galore:replace_item
+execute unless score #sg.whisk_durability sandwiches matches 98.. unless entity @a[advancements={sandwiches_galore:technical/right_click_armor_stand=true},gamemode=creative] run function sandwiches_galore:item_modification/replace.armor_stand_rc

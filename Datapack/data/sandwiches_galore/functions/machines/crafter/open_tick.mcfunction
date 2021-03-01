@@ -1,5 +1,5 @@
-execute if data block ~ ~ ~ Items[{Slot:0b}] run function sandwiches_galore:machines/slots/0_crafter
 data modify storage sandwiches:galore Items set from block ~ ~ ~ Items
+execute if data storage sandwiches:galore Items[{Slot:0b}] run function sandwiches_galore:machines/slots/0_crafter
 
 execute if data storage sandwiches:galore Items[{Slot:16b}] run function sandwiches_galore:machines/reject_slots/16
 execute if data storage sandwiches:galore Items[{Slot:13b}] run function sandwiches_galore:machines/reject_slots/13
@@ -18,6 +18,8 @@ execute if data storage sandwiches:galore Items[{Slot:24b}] run function sandwic
 execute if data storage sandwiches:galore Items[{Slot:25b}] run function sandwiches_galore:machines/reject_slots/25
 execute if data storage sandwiches:galore Items[{Slot:26b}] run function sandwiches_galore:machines/reject_slots/26
 execute if entity @s[tag=!sg.previewing] if data storage sandwiches:galore Items[{Slot:15b}] run function sandwiches_galore:machines/reject_slots/15
+
+data modify storage sandwiches:galore Items set from block ~ ~ ~ Items
 
 # Check for valid recipes
 scoreboard players set #temp sandwiches 0
