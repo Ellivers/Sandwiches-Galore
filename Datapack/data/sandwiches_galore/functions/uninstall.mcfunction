@@ -7,6 +7,9 @@ scoreboard objectives remove sg.process
 scoreboard objectives remove sg.process_timer
 scoreboard objectives remove sg.fire_timer
 scoreboard objectives remove sg.flour_level
+scoreboard objectives remove sg.gui_id
+scoreboard objectives remove sg.id
+scoreboard objectives remove sg.use_bow
 
 execute in minecraft:overworld run forceload remove -30000000 8020
 execute in minecraft:overworld run clone -30000000 0 8021 -30000000 0 8021 -30000000 0 8020

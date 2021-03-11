@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "ding": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true,
+                        "direct_entity": {
+                            "type": "arrow",
+                            "nbt": "{Tags:[\"sandwiches_galore\",\"sg.sandwich_arrow\"]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sandwiches_galore:triggers/player_shot"
+    }
+}

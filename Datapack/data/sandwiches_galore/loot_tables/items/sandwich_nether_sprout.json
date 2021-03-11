@@ -24,7 +24,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{SG:{Sandwich:1b,Sandwich_NetherSprout:1b,Items:[],NameLevel:0,FoodLevel:0},CustomModelData:6710003}"
+                            "tag": "{SG:{Sandwich:1b,SandwichNetherSprout:1b,Items:[],NameLevel:0,FoodLevel:0},CustomModelData:6710003}"
                         }
                     ]
                 }

@@ -10,6 +10,8 @@ scoreboard objectives add sg.process_timer dummy
 scoreboard objectives add sg.fire_timer dummy
 scoreboard objectives add sg.flour_level dummy
 scoreboard objectives add sg.gui_id dummy
+scoreboard objectives add sg.id dummy
+scoreboard objectives add sg.use_bow used:bow
 
 execute in minecraft:overworld run forceload remove -30000000 8020
 execute in minecraft:overworld run forceload add -30000000 8020

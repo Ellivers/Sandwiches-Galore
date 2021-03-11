@@ -2,6 +2,7 @@
 	"subtitles.sandwiches_galore.block.grinder.grind": "Grinder grinds",
 	"subtitles.sandwiches_galore.item.knife.cut": "Bread Knife cuts",
 	"subtitles.sandwiches_galore.item.whisk.use": "Whisk scrapes",
+	"subtitles.sandwiches_galore.entity_teleport": "Entity teleports",
 	
 	"sandwiches_galore.advancements.get_oven.title": "Bakery",
 	"sandwiches_galore.advancements.get_oven.description": "Obtain an oven",
@@ -17,9 +18,13 @@
 	"sandwiches_galore.gui.progress": "Progress",
 	
 	"sandwiches_galore.interface.oven": "\uF808\uE671",
+	"sandwiches_galore.interface.oven.name": "                                Oven",
 	"sandwiches_galore.interface.grinder": "\uF808\uE672",
+	"sandwiches_galore.interface.grinder.name": "                                Grinder",
 	"sandwiches_galore.interface.sandwich_table": "\uF808\uE673",
+	"sandwiches_galore.interface.sandwich_table.name": "                      Sandwich Table",
 	"sandwiches_galore.interface.crafter": "\uF808\uE674",
+	"sandwiches_galore.interface.crafter.name": "                                Crafter",
 	
 	"item.sandwiches_galore.oven": "Oven",
 	"item.sandwiches_galore.grinder": "Grinder",
@@ -49,17 +54,21 @@
 	"item.sandwiches_galore.nether_sprout_bread_slice": "Slice of Nether Sprout Bread",
 	
 	"item.sandwiches_galore.sandwich_base": "Sandwich",
+	"item.sandwiches_galore.sandwich_arrow": "Sandwich Arrow",
 	"item.sandwiches_galore.sandwich.cooked_beef": "Steak Sandwich",
 	"item.sandwiches_galore.sandwich.pufferfish": "Pufferfish Sandwich",
 	"item.sandwiches_galore.sandwich.golden": "§bGolden Sandwich",
 	"item.sandwiches_galore.sandwich.apple": "Apple Sandwich",
 	"item.sandwiches_galore.sandwich.cooked_porkchop": "Porkchop Sandwich",
 	"item.sandwiches_galore.sandwich.cooked_mutton": "Mutton Sandwich",
+	"item.sandwiches_galore.sandwich.ender_pearl": "Ender Pearl Sandwich",
 	
 	"item.sandwiches_galore.corncob": "Corncob",
 	"item.sandwiches_galore.corn_kernels": "Corn Kernels",
 	"item.sandwiches_galore.corn_flour": "Corn Flour",
 	"item.sandwiches_galore.corn_dough": "Corn Dough",
 	"item.sandwiches_galore.cornbread": "Cornbread",
-	"item.sandwiches_galore.cornbread_slice": "Slice of Cornbread"
+	"item.sandwiches_galore.cornbread_slice": "Slice of Cornbread",
+
+	"death.sandwiches_galore.teleport": "%1$s teleported too much"
 }

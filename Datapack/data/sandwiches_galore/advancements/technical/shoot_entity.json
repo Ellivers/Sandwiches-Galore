@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "ding": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true,
+                        "direct_entity": {
+                            "type": "arrow",
+                            "nbt": "{Tags:[\"sandwiches_galore\",\"sg.sandwich_arrow\"]}"
+                        }
+                    }
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "minecraft:player"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "sandwiches_galore:triggers/shoot_entity"
+    }
+}

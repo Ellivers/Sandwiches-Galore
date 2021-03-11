@@ -1,0 +1,32 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/arrow"
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 6710001
+			},
+			"model": "sandwiches_galore:item/sandwich_arrow_wheat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710002
+			},
+			"model": "sandwiches_galore:item/sandwich_arrow_buckwheat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710003
+			},
+			"model": "sandwiches_galore:item/sandwich_arrow_nether_sprout"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6710003
+			},
+			"model": "sandwiches_galore:item/sandwich_arrow_corn"
+		}
+	]
+}

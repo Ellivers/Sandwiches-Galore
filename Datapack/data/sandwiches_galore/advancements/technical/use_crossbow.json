@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "pew": {
+            "trigger": "minecraft:shot_crossbow",
+            "conditions": {
+                "item": {
+                    "nbt": "{ChargedProjectiles:[{tag:{SG:{SandwichArrow:1b}}}]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sandwiches_galore:triggers/crossbow"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "eat": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+            "item": {
+                "nbt": "{SG:{Sandwich:1b}}"
+            }
+        }
+      },
+      "ender_pearl": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{SG:{Sandwich:1b,Items:[{Name:\"ender_pearl\"}]}}"
+          }
+        }
+      }
+    },
+    "requirements": [["eat","ender_pearl"]],
+    "rewards": {
+      "function": "sandwiches_galore:items/sandwich/consume"
+    }
+}
