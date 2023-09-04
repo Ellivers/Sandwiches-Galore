@@ -1,4 +1,4 @@
-replaceitem block ~ ~ ~ container.16 air
+item replace block ~ ~ ~ container.16 with minecraft:air
 tag @s remove sg.previewing
 tag @s remove sg.preview_wheat_base
 tag @s remove sg.preview_corn_base

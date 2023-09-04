@@ -1,12 +1,4 @@
-scoreboard players set #temp sandwiches 2
-execute if entity @a[advancements={sandwiches_galore:technical/place_item_frame=true},gamemode=!creative,limit=1,predicate=sandwiches_galore:holding/corn_kernels_offhand] run scoreboard players set #temp sandwiches 0
-execute if entity @a[advancements={sandwiches_galore:technical/place_item_frame=true},gamemode=!creative,limit=1,predicate=sandwiches_galore:holding/corn_kernels_mainhand] run scoreboard players set #temp sandwiches 1
+execute as @a[advancements={sandwiches_galore:technical/place_item_frame=true},gamemode=!creative,limit=1] run function sandwiches_galore:place/corn/fail.give
 
-loot replace block -30000000 0 8020 container.0 loot sandwiches_galore:items/corn_kernels
-execute if score #temp sandwiches matches 1 run data modify block -30000000 0 8020 Items[0].Count set from entity @a[advancements={sandwiches_galore:technical/place_item_frame=true},gamemode=!creative,limit=1] SelectedItem.Count
-execute if score #temp sandwiches matches 0 run data modify block -30000000 0 8020 Items[0].Count set from entity @a[advancements={sandwiches_galore:technical/place_item_frame=true},gamemode=!creative,limit=1] Inventory[{Slot:-106b}].Count
-execute if score #temp sandwiches matches 0..1 run loot insert -30000000 0 8020 loot sandwiches_galore:items/corn_kernels
-execute if score #temp sandwiches matches 1..2 run loot replace entity @a[advancements={sandwiches_galore:technical/place_item_frame=true},gamemode=!creative,limit=1] weapon.mainhand mine -30000000 0 8020 air{drop_contents:1b}
-execute if score #temp sandwiches matches 0 run loot replace entity @a[advancements={sandwiches_galore:technical/place_item_frame=true},gamemode=!creative,limit=1] weapon.offhand mine -30000000 0 8020 air{drop_contents:1b}
-
+scoreboard players set #success sandwiches 0
 kill @s

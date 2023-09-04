@@ -1,2 +1,0 @@
-execute if entity @s[tag=sg.crop.buckwheat] if score @s sg.growth_state matches ..6 run function sandwiches_galore:crops/buckwheat/bonemeal
-execute if entity @s[tag=sg.crop.corn] if score @s sg.growth_state matches ..6 if block ~ ~1.1 ~ #sandwiches_galore:grow_through run function sandwiches_galore:crops/corn/bonemeal

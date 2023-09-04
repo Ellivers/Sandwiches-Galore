@@ -5,4 +5,4 @@ execute unless score @s sg.flour_level matches 1.. run summon armor_stand ~ ~ ~ 
 scoreboard players add @s sg.flour_level 1
 stopsound @a[distance=..16] * minecraft:item.armor.equip_generic
 playsound minecraft:block.sand.place block @a ~ ~ ~
-replaceitem entity @s weapon.mainhand air
+item replace entity @s weapon.mainhand with minecraft:air

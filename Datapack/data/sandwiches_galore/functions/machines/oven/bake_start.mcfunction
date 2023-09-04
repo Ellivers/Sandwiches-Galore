@@ -4,7 +4,7 @@ scoreboard players set @s sg.heat 14
 scoreboard players reset @s sg.heat_delay
 scoreboard players set #remove_item sandwiches 1
 execute unless score @s sg.heat_delay matches 1.. if data storage sandwiches:galore Items[{Slot:20b,id:"minecraft:lava_bucket"}] run scoreboard players set @s sg.heat_delay 1477
-execute if score @s sg.heat_delay matches 1477 if data storage sandwiches:galore Items[{Slot:20b,id:"minecraft:lava_bucket"}] run replaceitem block ~ ~ ~ container.20 minecraft:bucket
+execute if score @s sg.heat_delay matches 1477 if data storage sandwiches:galore Items[{Slot:20b,id:"minecraft:lava_bucket"}] run item replace block ~ ~ ~ container.20 with minecraft:bucket
 execute if score @s sg.heat_delay matches 1477 run scoreboard players set #remove_item sandwiches 0
 execute unless score @s sg.heat_delay matches 1.. if data storage sandwiches:galore Items[{Slot:20b,id:"minecraft:coal"}] run scoreboard players set @s sg.heat_delay 119
 execute unless score @s sg.heat_delay matches 1.. if data storage sandwiches:galore Items[{Slot:20b,id:"minecraft:charcoal"}] run scoreboard players set @s sg.heat_delay 119

@@ -4,7 +4,9 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "item": "minecraft:light_gray_stained_glass_pane",
+                "items": [
+                    "minecraft:light_gray_stained_glass_pane"
+                ],
                 "nbt": "{SG:{DetectCornRC:1b}}"
             }
         }

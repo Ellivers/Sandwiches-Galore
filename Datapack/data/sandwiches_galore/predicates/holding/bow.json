@@ -1,5 +1,5 @@
 {
-    "condition": "minecraft:alternative",
+    "condition": "minecraft:any_of",
     "terms": [
         {
             "condition": "minecraft:entity_properties",
@@ -7,7 +7,10 @@
             "predicate": {
                 "equipment": {
                     "mainhand": {
-                        "item": "minecraft:bow"
+                        "items": [
+                            "minecraft:bow"
+                        ],
+                        "count": 1
                     }
                 }
             }
@@ -18,7 +21,10 @@
             "predicate": {
                 "equipment": {
                     "offhand": {
-                        "item": "minecraft:bow"
+                        "items": [
+                            "minecraft:bow"
+                        ],
+                        "count": 1
                     }
                 }
             }

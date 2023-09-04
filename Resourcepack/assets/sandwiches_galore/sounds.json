@@ -25,9 +25,20 @@
   },
   "entity.generic.teleport": {
     "sounds": [
-      "mob/endermen/portal",
-      "mob/endermen/portal2"
+      {
+        "type": "event",
+        "name": "entity.enderman.teleport"
+      }
     ],
     "subtitle": "subtitles.sandwiches_galore.entity_teleport"
+  },
+  "block.corn.harvest": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "block.sweet_berry_bush.pick_berries"
+      }
+    ],
+    "subtitle": "subtitles.sandwiches_galore.harvest_corn"
   }
 }

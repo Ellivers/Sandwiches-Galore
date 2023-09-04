@@ -1,4 +1,4 @@
-replaceitem block ~ ~ ~ container.0 air
+item replace block ~ ~ ~ container.0 with minecraft:air
 data modify storage sandwiches:galore Item1 set from storage sandwiches:galore Items[{Slot:0b}]
 function sandwiches_galore:machines/reject_slots/return_to_sender
 scoreboard players operation #temp_id sandwiches = @s sg.gui_id

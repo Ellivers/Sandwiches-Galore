@@ -3,7 +3,7 @@
     "entity": "this",
     "predicate": {
         "equipment": {
-            "mainhand": {
+            "offhand": {
                 "nbt": "{SG:{BuckwheatSeeds:1b}}",
                 "count": {
                     "min": 1

@@ -1,10 +1,10 @@
 {
-    "condition": "minecraft:alternative",
+    "condition": "minecraft:any_of",
     "terms": [
         {
             "condition": "minecraft:inverted",
             "term": {
-              "condition": "minecraft:alternative",
+              "condition": "minecraft:any_of",
               "terms": [
                 {
                   "condition": "minecraft:inverted",
@@ -79,7 +79,7 @@
         {
             "condition": "minecraft:inverted",
             "term": {
-              "condition": "minecraft:alternative",
+              "condition": "minecraft:any_of",
               "terms": [
                 {
                   "condition": "minecraft:inverted",
@@ -154,7 +154,7 @@
         {
             "condition": "minecraft:inverted",
             "term": {
-              "condition": "minecraft:alternative",
+              "condition": "minecraft:any_of",
               "terms": [
                 {
                   "condition": "minecraft:inverted",
@@ -229,7 +229,7 @@
         {
             "condition": "minecraft:inverted",
             "term": {
-              "condition": "minecraft:alternative",
+              "condition": "minecraft:any_of",
               "terms": [
                 {
                   "condition": "minecraft:inverted",
@@ -304,7 +304,7 @@
         {
             "condition": "minecraft:inverted",
             "term": {
-              "condition": "minecraft:alternative",
+              "condition": "minecraft:any_of",
               "terms": [
                 {
                   "condition": "minecraft:inverted",
@@ -379,7 +379,7 @@
         {
             "condition": "minecraft:inverted",
             "term": {
-              "condition": "minecraft:alternative",
+              "condition": "minecraft:any_of",
               "terms": [
                 {
                   "condition": "minecraft:inverted",

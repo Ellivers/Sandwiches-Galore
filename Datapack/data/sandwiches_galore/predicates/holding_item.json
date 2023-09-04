@@ -4,7 +4,10 @@
     "predicate": {
         "equipment": {
             "mainhand": {
-                "count": 1
+                "count": {
+                    "min": 1,
+                    "max": 128
+                }
             }
         }
     }

@@ -12,6 +12,6 @@ scoreboard players remove #tempcount2 sandwiches 64
 execute if score #tempcount sandwiches matches 65.. store result block ~ ~ ~ Items[{Slot:0b}].Count byte 1 run scoreboard players get #tempcount2 sandwiches
 
 execute unless score #tempcount sandwiches matches 65.. store result block ~ ~ ~ Items[{Slot:2b}].Count byte 1 run scoreboard players get #tempcount sandwiches
-execute unless score #tempcount sandwiches matches 65.. run replaceitem block ~ ~ ~ container.0 air
+execute unless score #tempcount sandwiches matches 65.. run item replace block ~ ~ ~ container.0 with minecraft:air
 
 execute if score #tempcount sandwiches matches 65.. run function sandwiches_galore:machines/reject_slots/0

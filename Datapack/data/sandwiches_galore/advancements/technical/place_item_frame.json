@@ -3,10 +3,17 @@
         "place": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "item": {
-                    "item": "minecraft:item_frame",
-                    "nbt": "{EntityTag:{Tags:[\"sandwiches_galore\",\"sg.place\"]}}"
-                }
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:item_frame"
+                            ],
+                            "nbt": "{EntityTag:{Tags:[\"sandwiches_galore\",\"sg.place\"]}}"
+                        }
+                    }
+                ]
             }
         }
     },

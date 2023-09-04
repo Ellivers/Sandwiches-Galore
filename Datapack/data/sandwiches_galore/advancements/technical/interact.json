@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "interact": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[\"sandwiches_galore\",\"sg.interactable\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sandwiches_galore:triggers/interact/load"
+    }
+}

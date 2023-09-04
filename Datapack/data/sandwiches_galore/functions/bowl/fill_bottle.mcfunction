@@ -1,4 +1,4 @@
-replaceitem entity @s weapon.mainhand air
+item replace entity @s weapon.mainhand with minecraft:air
 execute if entity @s[tag=sg.bowl] run give @a[advancements={sandwiches_galore:technical/right_click_armor_stand=true},limit=1] minecraft:potion{Potion:"minecraft:water"}
 execute if entity @s[tag=sg.large_bowl] run give @a[advancements={sandwiches_galore:technical/right_click_armor_stand=true},limit=1] minecraft:bucket
 stopsound @a[distance=..16] * minecraft:entity.item.pickup

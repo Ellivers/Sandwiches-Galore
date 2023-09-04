@@ -7,7 +7,7 @@
               {
                 "condition": "minecraft:entity_properties",
                 "predicate": {
-                  "type": "minecraft:pig",
+                  "type": "minecraft:interaction",
                   "nbt": "{Tags:[\"sg.hitbox\",\"sandwiches_galore\"]}"
                 },
                 "entity": "this"
@@ -17,6 +17,6 @@
       }
     },
     "rewards": {
-      "function": "sandwiches_galore:triggers/hitbox_hit"
+      "function": "sandwiches_galore:triggers/hitbox_hit/load"
     }
 }

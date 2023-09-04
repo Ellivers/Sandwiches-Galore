@@ -1,2 +1,2 @@
-execute as @e[type=armor_stand,tag=sandwiches_galore,tag=sg.machine] at @s if block ~ ~-1 ~ hopper[enabled=true] unless entity @s[tag=!sg.grinder,tag=!sg.oven] if data block ~ ~ ~ Items[{Slot:15b}] run function sandwiches_galore:machines/grinder/hopper_clock
+execute as @e[type=minecraft:item_display,tag=sandwiches_galore,tag=sg.machine] at @s if block ~ ~-1 ~ hopper[enabled=true] unless entity @s[tag=!sg.grinder,tag=!sg.oven] if data block ~ ~ ~ Items[{Slot:15b}] run function sandwiches_galore:machines/grinder/hopper_clock
 schedule function sandwiches_galore:machines/hopper_clock 8t

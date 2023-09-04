@@ -12,6 +12,7 @@ scoreboard objectives add sg.flour_level dummy
 scoreboard objectives add sg.gui_id dummy
 scoreboard objectives add sg.id dummy
 scoreboard objectives add sg.use_bow used:bow
+scoreboard objectives add sg.sneak custom:sneak_time
 
 execute in minecraft:overworld run forceload remove -30000000 8020
 execute in minecraft:overworld run forceload add -30000000 8020
@@ -48,3 +49,4 @@ scoreboard players set #3 sandwiches 3
 scoreboard players set #100 sandwiches 100
 
 function sandwiches_galore:machines/hopper_clock
+function sandwiches_galore:clock/second

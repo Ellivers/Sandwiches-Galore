@@ -1,6 +1,11 @@
 {
     "pack": {
-        "pack_format": 6,
-        "description": "Wow, someone actually reads these descriptions?"
+        "pack_format": 15,
+        "description": "Sandwiches & more. Goes with the resource pack.",
+
+        "supported_formats": {
+            "min_inclusive": 15,
+            "max_inclusive": 17
+        }
     }
 }
