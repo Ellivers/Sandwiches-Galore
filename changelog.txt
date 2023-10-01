@@ -1,4 +1,8 @@
+- Added sandwich arrows
+- The following items can now be put in sandwiches:
+  - Ender pearl
 - Cutting Boards can now be placed in all directions
+- Grass now has a higher chance of dropping wheat seeds
 - GUI blocks now handle item transfering properly
 - GUI blocks no longer make barrel sounds when opened/closed
 - WIP API system for adding custom Sandwiches Galore recipes

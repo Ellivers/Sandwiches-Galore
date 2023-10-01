@@ -1,3 +1,3 @@
-stopsound @a[distance=..16] * minecraft:entity.item_frame.place
-execute align xyz positioned ~.5 ~ ~.5 if entity @e[type=minecraft:armor_stand,tag=sg.non_solid_blocks,distance=...5] run function sandwiches_galore:place/crafter/fail
-execute align xyz positioned ~.5 ~ ~.5 unless entity @e[type=minecraft:armor_stand,tag=sg.non_solid_blocks,distance=...5] run function sandwiches_galore:place/crafter/place
+scoreboard players set #success sandwiches 1
+execute align xyz positioned ~.5 ~ ~.5 if entity @e[tag=smithed.block,distance=...5] run function sandwiches_galore:place/crafter/fail
+execute if score #success sandwiches matches 1 align xyz positioned ~.5 ~ ~.5 run function sandwiches_galore:place/crafter/place

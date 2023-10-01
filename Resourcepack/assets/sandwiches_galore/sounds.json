@@ -23,15 +23,6 @@
     ],
 	"subtitle": "subtitles.sandwiches_galore.block.grinder.grind"
   },
-  "entity.generic.teleport": {
-    "sounds": [
-      {
-        "type": "event",
-        "name": "entity.enderman.teleport"
-      }
-    ],
-    "subtitle": "subtitles.sandwiches_galore.entity_teleport"
-  },
   "block.corn.harvest": {
     "sounds": [
       {
@@ -40,5 +31,14 @@
       }
     ],
     "subtitle": "subtitles.sandwiches_galore.harvest_corn"
+  },
+  "entity.generic.teleport": {
+    "sounds": [
+      {
+        "type": "event",
+        "name": "entity.enderman.teleport"
+      }
+    ],
+    "subtitle": "subtitles.sandwiches_galore.entity_teleport"
   }
 }

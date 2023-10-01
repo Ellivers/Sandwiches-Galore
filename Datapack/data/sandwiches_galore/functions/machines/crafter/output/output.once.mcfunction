@@ -6,7 +6,7 @@ execute as @a[tag=sg.tag] store result score @s sandwiches store result score #t
 execute if score #temp sandwiches matches 1.. run tag @a remove sg.tag
 execute if score #temp sandwiches matches 1.. run tag @a[scores={sandwiches=1..}] add sg.tag
 
-kill @e[type=minecraft:item,sort=arbitrary,nbt={Item:{tag:{SG:{GUI_Item:1b}}}}]
+kill @e[type=minecraft:item,nbt={Item:{tag:{SG:{GUI_Item:1b}}}}]
 
 execute if entity @s[tag=sg.preview_knife] at @a[tag=sg.tag,limit=1] run loot spawn ~ ~ ~ loot sandwiches_galore:items/bread_knife
 execute if entity @s[tag=sg.preview_oven] at @a[tag=sg.tag,limit=1] run loot spawn ~ ~ ~ loot sandwiches_galore:items/oven

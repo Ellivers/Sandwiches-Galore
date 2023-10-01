@@ -7,7 +7,7 @@ execute as @a if score @s sg.gui_id = #temp_id sandwiches store result score @s 
 execute if score #temp sandwiches matches 1.. run tag @a[scores={sandwiches=1..}] add sg.tag
 execute unless score #temp sandwiches matches 1.. as @a if score @s sg.gui_id = #temp_id sandwiches run tag @s add sg.tag
 
-kill @e[type=minecraft:item,sort=arbitrary,nbt={Item:{tag:{SG:{GUI_Item:1b}}}}]
+kill @e[type=minecraft:item,nbt={Item:{tag:{SG:{GUI_Item:1b}}}}]
 
 execute store result score #item_1 sandwiches run data get storage sandwiches:galore Items[{Slot:10b}].Count
 execute store result score #item_2 sandwiches run data get storage sandwiches:galore Items[{Slot:13b}].Count

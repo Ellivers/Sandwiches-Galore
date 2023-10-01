@@ -35,10 +35,12 @@ team modify no_collision collisionRule never
 execute unless score $version sandwiches matches 1.. run tellraw @a {"translate": "sandwiches_galore.install_message"}
 scoreboard players set $version sandwiches 1
 
-execute unless score $growthAttemptPoint sandwiches matches 0.. run scoreboard players set $growthAttemptPoint sandwiches 1200
 execute unless score $ovenBakeTime sandwiches matches 1.. run scoreboard players set $ovenBakeTime sandwiches 8
 execute unless score $grindTime sandwiches matches 1.. run scoreboard players set $grindTime sandwiches 10
 execute unless score $tickNBTChecks sandwiches matches 0..1 run scoreboard players set $tickNBTChecks sandwiches 1
+
+execute unless score $randomTickSpeed sandwiches matches 0.. run scoreboard players set $growthAttemptPoint sandwiches 1200
+scoreboard players set #maxRandomTickSpeed sandwiches 3600
 
 # Setup for LCG RNG
 execute unless score #seed sandwiches matches -2147483648.. run scoreboard players set #seed sandwiches 127689
