@@ -1,4 +1,4 @@
-scoreboard players set #found sandwiches 1
+scoreboard players set #found sg.dummy 1
 
 data modify storage sandwiches:galore Item2 set from storage sandwiches:galore Items2[0]
 data modify storage sandwiches:galore Item2.Count set value 1b

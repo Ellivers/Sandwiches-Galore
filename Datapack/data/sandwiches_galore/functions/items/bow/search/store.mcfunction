@@ -1,4 +1,4 @@
-scoreboard players set #stored sandwiches 1
+scoreboard players set #stored sg.dummy 1
 
 data modify storage sandwiches:galore Items2 set from entity @s[predicate=sandwiches_galore:holding/bow_offhand] Inventory[{Slot:-106b}].tag.SG.SandwichArrows
 data modify storage sandwiches:galore Items2 set from entity @s[predicate=sandwiches_galore:holding/bow_mainhand] SelectedItem.tag.SG.SandwichArrows
@@ -17,9 +17,9 @@ execute if entity @s[predicate=sandwiches_galore:holding/bow_mainhand] run loot 
 execute if entity @s[predicate=sandwiches_galore:holding/bow_offhand] run data modify block -30000000 0 8020 Items[0] set from storage sandwiches:galore Item3
 execute if entity @s[predicate=sandwiches_galore:holding/bow_offhand] run loot replace entity @s weapon.offhand 1 mine -30000000 0 8020 air{drop_contents:1b}
 
-#execute if score #shot sandwiches matches 1 unless score #different sandwiches matches 1 if score #length_new sandwiches < #length_old sandwiches run data modify storage sandwiches:galore Items2 append from storage sandwiches:galore Items2[0]
-#execute if score #shot sandwiches matches 1 unless score #different sandwiches matches 1 if score #length_new sandwiches < #length_old sandwiches run data remove storage sandwiches:galore Items2[0]
+#execute if score #shot sg.dummy matches 1 unless score #different sg.dummy matches 1 if score #length_new sg.dummy < #length_old sg.dummy run data modify storage sandwiches:galore Items2 append from storage sandwiches:galore Items2[0]
+#execute if score #shot sg.dummy matches 1 unless score #different sg.dummy matches 1 if score #length_new sg.dummy < #length_old sg.dummy run data remove storage sandwiches:galore Items2[0]
 
-#execute if score #shot sandwiches matches 1 unless score #different sandwiches matches 1 if score #length_new sandwiches < #length_old sandwiches run function sandwiches_galore:items/bow/search/found
+#execute if score #shot sg.dummy matches 1 unless score #different sg.dummy matches 1 if score #length_new sg.dummy < #length_old sg.dummy run function sandwiches_galore:items/bow/search/found
 
-execute if score #shot sandwiches matches 1 at @s run function sandwiches_galore:items/sandwich/arrow/schedule
+execute if score #shot sg.dummy matches 1 at @s run function sandwiches_galore:items/sandwich/arrow/schedule

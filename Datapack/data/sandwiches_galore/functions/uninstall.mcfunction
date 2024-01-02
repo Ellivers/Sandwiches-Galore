@@ -1,4 +1,4 @@
-scoreboard objectives remove sandwiches
+scoreboard objectives remove sg.dummy
 scoreboard objectives remove sg.growth_state
 scoreboard objectives remove sg.heat
 scoreboard objectives remove sg.heat_timer

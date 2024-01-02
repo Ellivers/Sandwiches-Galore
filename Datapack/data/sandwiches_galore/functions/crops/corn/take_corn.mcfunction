@@ -5,4 +5,4 @@ function sandwiches_galore:crops/corn/update
 
 playsound sandwiches_galore:block.corn.harvest block @a ~ ~1 ~
 
-scoreboard players set #temp sandwiches 0
+scoreboard players set #temp sg.dummy 0

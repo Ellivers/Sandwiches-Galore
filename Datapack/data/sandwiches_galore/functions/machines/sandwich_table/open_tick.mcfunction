@@ -27,19 +27,19 @@ execute if data storage sandwiches:galore Items[{Slot:26b}] run function sandwic
 execute if entity @s[tag=!sg.previewing] if data storage sandwiches:galore Items[{Slot:16b}] run function sandwiches_galore:machines/reject_slots/16
 
 # Check for valid recipes
-scoreboard players set #temp sandwiches 0
-execute if score #temp sandwiches matches 0 if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{WheatBreadSlice:1b}}},{Slot:13b,tag:{SG:{WheatBreadSlice:1b}}}]} run scoreboard players set #temp sandwiches 1
-execute if score #temp sandwiches matches 0 if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{BuckwheatBreadSlice:1b}}},{Slot:13b,tag:{SG:{BuckwheatBreadSlice:1b}}}]} run scoreboard players set #temp sandwiches 1
-execute if score #temp sandwiches matches 0 if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{CornbreadSlice:1b}}},{Slot:13b,tag:{SG:{CornbreadSlice:1b}}}]} run scoreboard players set #temp sandwiches 1
-execute if score #temp sandwiches matches 0 if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{NetherSproutBreadSlice:1b}}},{Slot:13b,tag:{SG:{NetherSproutBreadSlice:1b}}}]} run scoreboard players set #temp sandwiches 1
-execute if score #temp sandwiches matches 0 if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{Sandwich:1b}}},{Slot:13b}]} run scoreboard players set #temp sandwiches 1
-execute if score #temp sandwiches matches 0 run function #sandwiches_galore:sandwich_table/validate_recipe
+scoreboard players set #temp sg.dummy 0
+execute if score #temp sg.dummy matches 0 if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{WheatBreadSlice:1b}}},{Slot:13b,tag:{SG:{WheatBreadSlice:1b}}}]} run scoreboard players set #temp sg.dummy 1
+execute if score #temp sg.dummy matches 0 if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{BuckwheatBreadSlice:1b}}},{Slot:13b,tag:{SG:{BuckwheatBreadSlice:1b}}}]} run scoreboard players set #temp sg.dummy 1
+execute if score #temp sg.dummy matches 0 if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{CornbreadSlice:1b}}},{Slot:13b,tag:{SG:{CornbreadSlice:1b}}}]} run scoreboard players set #temp sg.dummy 1
+execute if score #temp sg.dummy matches 0 if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{NetherSproutBreadSlice:1b}}},{Slot:13b,tag:{SG:{NetherSproutBreadSlice:1b}}}]} run scoreboard players set #temp sg.dummy 1
+execute if score #temp sg.dummy matches 0 if data storage sandwiches:galore {Items:[{Slot:10b,tag:{SG:{Sandwich:1b}}},{Slot:13b}]} run scoreboard players set #temp sg.dummy 1
+execute if score #temp sg.dummy matches 0 run function #sandwiches_galore:sandwich_table/validate_recipe
 
 # Output item
-execute if score #temp sandwiches matches 1 if entity @s[tag=sg.previewing] unless data storage sandwiches:galore Items[{Slot:16b}] run function sandwiches_galore:machines/sandwich_table/output
+execute if score #temp sg.dummy matches 1 if entity @s[tag=sg.previewing] unless data storage sandwiches:galore Items[{Slot:16b}] run function sandwiches_galore:machines/sandwich_table/output
 # Check for valid recipes
-execute if score #temp sandwiches matches 1 if predicate sandwiches_galore:sandwich_table/can_preview run function sandwiches_galore:machines/sandwich_table/check
+execute if score #temp sg.dummy matches 1 if predicate sandwiches_galore:sandwich_table/can_preview run function sandwiches_galore:machines/sandwich_table/check
 # Remove preview if there's no valid recipe
-execute if score #temp sandwiches matches 0 if entity @s[tag=sg.previewing] run function sandwiches_galore:machines/sandwich_table/preview/remove
+execute if score #temp sg.dummy matches 0 if entity @s[tag=sg.previewing] run function sandwiches_galore:machines/sandwich_table/preview/remove
 
 execute unless block ~ ~ ~ minecraft:barrel[open=true] run function sandwiches_galore:machines/close_gui

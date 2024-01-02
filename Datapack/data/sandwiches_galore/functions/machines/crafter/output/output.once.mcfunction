@@ -1,10 +1,10 @@
 function sandwiches_galore:machines/crafter/remove_1_from_all_grid_items
 
-scoreboard players set #temp sandwiches 0
-scoreboard players reset @a sandwiches
-execute as @a[tag=sg.tag] store result score @s sandwiches store result score #temp sandwiches run clear @s #sandwiches_galore:all{SG:{GUI_Item:1b}}
-execute if score #temp sandwiches matches 1.. run tag @a remove sg.tag
-execute if score #temp sandwiches matches 1.. run tag @a[scores={sandwiches=1..}] add sg.tag
+scoreboard players set #temp sg.dummy 0
+scoreboard players reset @a sg.dummy
+execute as @a[tag=sg.tag] store result score @s sg.dummy store result score #temp sg.dummy run clear @s #sandwiches_galore:all{SG:{GUI_Item:1b}}
+execute if score #temp sg.dummy matches 1.. run tag @a remove sg.tag
+execute if score #temp sg.dummy matches 1.. run tag @a[scores={sg.dummy=1..}] add sg.tag
 
 kill @e[type=minecraft:item,nbt={Item:{tag:{SG:{GUI_Item:1b}}}}]
 

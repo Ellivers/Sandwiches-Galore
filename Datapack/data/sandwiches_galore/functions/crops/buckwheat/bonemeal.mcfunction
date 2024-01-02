@@ -1,10 +1,10 @@
-scoreboard players set #success sandwiches 1
+scoreboard players set #success sg.dummy 1
 
     # Bonemeal randomization
-    scoreboard players set #max sandwiches 3
+    scoreboard players set #max sg.dummy 3
     function sandwiches_galore:random
-    scoreboard players add #result sandwiches 2
-    scoreboard players operation @s sg.growth_state += #result sandwiches
+    scoreboard players add #result sg.dummy 2
+    scoreboard players operation @s sg.growth_state += #result sg.dummy
 
     function sandwiches_galore:crops/buckwheat/update
 

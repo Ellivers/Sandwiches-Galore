@@ -1,4 +1,4 @@
-execute store result score #sg.name_level sandwiches run data get storage sandwiches:galore Items[{Slot:10b}].tag.SG.NameLevel
+execute store result score #sg.name_level sg.dummy run data get storage sandwiches:galore Items[{Slot:10b}].tag.SG.NameLevel
 execute if data storage sandwiches:galore {Items:[{Slot:13b,id:"minecraft:cooked_beef"}]} unless data storage sandwiches:galore Items[{Slot:10b}].tag.SG.Items[{Name:"cooked_beef"}] run function sandwiches_galore:machines/sandwich_table/food/steak_preview
 execute if data storage sandwiches:galore {Items:[{Slot:13b,id:"minecraft:pufferfish"}]} unless data storage sandwiches:galore Items[{Slot:10b}].tag.SG.Items[{Name:"pufferfish"}] run function sandwiches_galore:machines/sandwich_table/food/pufferfish_preview
 execute if data storage sandwiches:galore {Items:[{Slot:13b,id:"minecraft:gold_ingot"}]} unless data storage sandwiches:galore Items[{Slot:10b}].tag.SG.Items[{Name:"gold?"}] run function sandwiches_galore:machines/sandwich_table/food/gold_preview

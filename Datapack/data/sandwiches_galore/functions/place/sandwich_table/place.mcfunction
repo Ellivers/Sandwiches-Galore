@@ -2,6 +2,6 @@ execute align xyz run summon armor_stand ~.5 ~.5 ~.5 {NoGravity:1b,Small:1b,Mark
 #Make custom sound?
 playsound minecraft:block.wood.place block @a ~ ~ ~ 1 0.6
 setblock ~ ~ ~ minecraft:barrel{CustomName:'{"font":"sandwiches_galore:gui","translate":"sandwiches_galore.interface.sandwich_table","color":"white","with":[{"translate":"sandwiches_galore.interface.sandwich_table.name","color":"#3F3F3F","font":"minecraft:default"}]}'}
-execute align xyz positioned ~.5 ~.5 ~.5 run scoreboard players operation @e[type=armor_stand,tag=sandwiches_galore,tag=sg.sandwich_table,sort=nearest,limit=1] sg.gui_id = #gui_id sandwiches
+execute align xyz positioned ~.5 ~.5 ~.5 run scoreboard players operation @e[type=armor_stand,tag=sandwiches_galore,tag=sg.sandwich_table,sort=nearest,limit=1] sg.gui_id = #gui_id sg.dummy
 
 kill @s

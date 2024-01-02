@@ -1,4 +1,4 @@
-scoreboard players operation #temp_id sandwiches = @s sg.gui_id
+scoreboard players operation #temp_id sg.dummy = @s sg.gui_id
 execute as @a if score @s sg.gui_id = @s sg.gui_id run scoreboard players reset @s sg.gui_id
 tag @s remove sg.opened
 

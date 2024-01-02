@@ -1,7 +1,7 @@
 data modify storage sandwiches:galore root.temp.items set from block ~ ~ ~ Items
 execute if data storage sandwiches:galore root.temp.items[{Slot:0b}] run function sandwiches_galore:machines/slots/0_crafter
 
-scoreboard players set #rejected sandwiches 0
+scoreboard players set #rejected sg.dummy 0
 execute if data storage sandwiches:galore root.temp.items[{Slot:16b}] run function sandwiches_galore:machines/reject_slots/16
 execute if data storage sandwiches:galore root.temp.items[{Slot:13b}] run function sandwiches_galore:machines/reject_slots/13
 execute if data storage sandwiches:galore root.temp.items[{Slot:4b}] run function sandwiches_galore:machines/reject_slots/4
@@ -20,18 +20,18 @@ execute if data storage sandwiches:galore root.temp.items[{Slot:25b}] run functi
 execute if data storage sandwiches:galore root.temp.items[{Slot:26b}] run function sandwiches_galore:machines/reject_slots/26
 execute if entity @s[tag=!sg.previewing] if data storage sandwiches:galore root.temp.items[{Slot:15b}] run function sandwiches_galore:machines/reject_slots/15
 
-execute if score #rejected sandwiches matches 1 run data modify storage sandwiches:galore root.temp.items set from block ~ ~ ~ Items
+execute if score #rejected sg.dummy matches 1 run data modify storage sandwiches:galore root.temp.items set from block ~ ~ ~ Items
 
 # Check for valid recipes
-scoreboard players set #temp sandwiches 0
-execute if predicate sandwiches_galore:crafter/craftable run scoreboard players set #temp sandwiches 1
-execute if score #temp sandwiches matches 0 run function #sandwiches_galore:crafter/validate_recipe
+scoreboard players set #temp sg.dummy 0
+execute if predicate sandwiches_galore:crafter/craftable run scoreboard players set #temp sg.dummy 1
+execute if score #temp sg.dummy matches 0 run function #sandwiches_galore:crafter/validate_recipe
 
 # Craft the recipe
-execute if score #temp sandwiches matches 1 if entity @s[tag=sg.previewing] unless data storage sandwiches:galore root.temp.items[{Slot:15b,tag:{SG:{GUI_Item:1b}}}] run function sandwiches_galore:machines/crafter/output/output
+execute if score #temp sg.dummy matches 1 if entity @s[tag=sg.previewing] unless data storage sandwiches:galore root.temp.items[{Slot:15b,tag:{SG:{GUI_Item:1b}}}] run function sandwiches_galore:machines/crafter/output/output
 # Check for valid recipes
-execute if score #temp sandwiches matches 1 if predicate sandwiches_galore:crafter/previewable run function sandwiches_galore:machines/crafter/preview
+execute if score #temp sg.dummy matches 1 if predicate sandwiches_galore:crafter/previewable run function sandwiches_galore:machines/crafter/preview
 # Remove preview item if there's no valid recipe
-execute if score #temp sandwiches matches 0 if entity @s[tag=sg.previewing] run function sandwiches_galore:machines/crafter/remove_preview
+execute if score #temp sg.dummy matches 0 if entity @s[tag=sg.previewing] run function sandwiches_galore:machines/crafter/remove_preview
 
 execute unless block ~ ~ ~ minecraft:barrel[open=true] run function sandwiches_galore:machines/close_gui
