@@ -27,4 +27,4 @@ scoreboard players set #3 sg.dummy 3
 scoreboard players set #100 sg.dummy 100
 
 function sandwiches_galore:machines/hopper_clock
-function sandwiches_galore:clock/second
+function sandwiches_galore:technical/clock/second

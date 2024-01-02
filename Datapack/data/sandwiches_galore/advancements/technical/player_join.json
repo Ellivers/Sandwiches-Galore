@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "sandwiches_galore:assign_id"
+        "function": "sandwiches_galore:triggers/assign_id"
     }
 }

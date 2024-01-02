@@ -1,6 +1,6 @@
 {
     "values": [
-        "sandwiches_galore:load",
+        "sandwiches_galore:technical/load",
         "qcb:load"
     ]
 }
