@@ -5,7 +5,6 @@ scoreboard objectives remove sg.heat_timer
 scoreboard objectives remove sg.heat_delay
 scoreboard objectives remove sg.process
 scoreboard objectives remove sg.process_timer
-scoreboard objectives remove sg.fire_timer
 scoreboard objectives remove sg.flour_level
 scoreboard objectives remove sg.gui_id
 scoreboard objectives remove sg.id

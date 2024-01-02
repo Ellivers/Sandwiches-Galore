@@ -1,9 +1,8 @@
 {
-	"parent": "sandwiches_galore:block/cube_base",
+	"parent": "minecraft:block/cube_bottom_top",
 	"textures": {
-		"1": "sandwiches_galore:block/sandwich_table_top",
-		"2": "sandwiches_galore:block/sandwich_table_bottom",
-		"3": "sandwiches_galore:block/sandwich_table_side",
-		"particle": "sandwiches_galore:block/sandwich_table_side"
+		"top": "sandwiches_galore:block/sandwich_table_top",
+		"bottom": "sandwiches_galore:block/sandwich_table_bottom",
+		"side": "sandwiches_galore:block/sandwich_table_side"
 	}
 }

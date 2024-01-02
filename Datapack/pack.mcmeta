@@ -7,5 +7,13 @@
             "min_inclusive": 15,
             "max_inclusive": 17
         }
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "^minecraft$",
+                "path": "recipes/bread.json"
+            }
+        ]
     }
 }

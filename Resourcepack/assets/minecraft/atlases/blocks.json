@@ -1,0 +1,9 @@
+{
+    "sources": [
+      {
+        "type": "directory",
+        "source": "sg_gui",
+        "prefix": "gui/"
+      }
+    ]
+}

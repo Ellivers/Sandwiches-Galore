@@ -6,5 +6,3 @@ execute if entity @s[tag=sg.place.sandwich_table] run function sandwiches_galore
 execute if entity @s[tag=sg.place.large_bowl] run function sandwiches_galore:place/large_bowl/check
 execute if entity @s[tag=sg.place.corn] run function sandwiches_galore:place/corn/check
 execute if entity @s[tag=sg.place.crafter] run function sandwiches_galore:place/crafter/check
-
-stopsound @a[distance=..16] * minecraft:entity.item_frame.place

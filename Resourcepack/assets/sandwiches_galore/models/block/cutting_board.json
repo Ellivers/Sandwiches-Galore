@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "sandwiches_galore:block/cutting_board",
 		"particle": "sandwiches_galore:block/cutting_board"
@@ -51,9 +50,35 @@
 		}
 	],
 	"display": {
-		"head": {
-			"translation": [0, -14.87, 0],
-			"scale": [2.28, 2.28, 2.28]
+		"thirdperson_righthand": {
+			"translation": [0, 5.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 5.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [6, 99, 65],
+			"translation": [3.75, 3.25, 9.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-58, 99, -49],
+			"translation": [2.5, -1.5, -4.5]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [48, 31, 0],
+			"translation": [0.5, 4.25, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"fixed": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 6.75]
 		}
 	}
 }
