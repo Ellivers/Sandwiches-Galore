@@ -1,8 +1,7 @@
 scoreboard players set #success sg.dummy 1
 
     # Bonemeal randomization
-    scoreboard players set #max sg.dummy 3
-    function sandwiches_galore:random
+    execute store result score #result sg.dummy run random value 0..3
     scoreboard players add #result sg.dummy 2
     scoreboard players operation @s sg.growth_state += #result sg.dummy
 

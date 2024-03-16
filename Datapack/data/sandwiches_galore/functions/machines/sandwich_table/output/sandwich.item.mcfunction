@@ -1,4 +1,4 @@
-data modify entity @s Item set from storage sandwiches:galore Items[{Slot:10b}]
+data modify entity @s Item set from storage sandwiches:temp root.items[{Slot:10b}]
 data modify entity @s Item.Count set from storage sandwiches:galore Output.Count
 
 execute store result score #sg.name_level sg.dummy run data get entity @s Item.tag.SG.NameLevel

@@ -1,2 +1,2 @@
-execute if data storage sandwiches:galore Items[{Name:"pufferfish"}] run function sandwiches_galore:items/sandwich/puffer_sandwich
-execute if data storage sandwiches:galore Items[{Name:"gold?"}] run function sandwiches_galore:items/sandwich/golden_sandwich
+execute if data storage sandwiches:temp root.items[{Name:"pufferfish"}] run function sandwiches_galore:items/sandwich/puffer_sandwich
+execute if data storage sandwiches:temp root.items[{Name:"gold?"}] run function sandwiches_galore:items/sandwich/golden_sandwich

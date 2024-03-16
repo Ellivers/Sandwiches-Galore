@@ -1,5 +1,5 @@
 data modify entity @s ArmorItems[2] set value {}
-data modify entity @s ArmorItems[2] set from storage sandwiches:galore Items[{Slot:20b}]
+data modify entity @s ArmorItems[2] set from storage sandwiches:temp root.items[{Slot:20b}]
 
 scoreboard players set #temp2 sg.dummy 0
 execute if predicate sandwiches_galore:oven/fuel_items run scoreboard players set #temp2 sg.dummy 1

@@ -8,4 +8,4 @@ execute if entity @s[tag=sg.crop.corn] if score #sneaking sg.dummy matches 0 run
 execute if entity @s[tag=sg.crop.corn] if score #sneaking sg.dummy matches 1 run function sandwiches_galore:crops/corn/debug_stick/cycle_backwards
 
 scoreboard players operation #temp sg.dummy = @s sg.growth_state
-execute on target run title @s actionbar {"translate":"item.minecraft.debug_stick.update","with":["age",{"score":{"name": "#temp","objective": "sandwiches"}}]}
+execute on target run title @s actionbar {"translate":"item.minecraft.debug_stick.update","with":["age",{"score":{"name": "#temp","objective": "sg.dummy"}}]}

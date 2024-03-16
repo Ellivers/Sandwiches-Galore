@@ -4,6 +4,6 @@ summon minecraft:item_display ~ ~ ~ {Tags:["sandwiches_galore"],item:{id:"minecr
 
 scoreboard players set @e[type=minecraft:interaction,tag=sg.crop.corn,sort=nearest,limit=1] sg.growth_state 0
 playsound minecraft:item.crop.plant block @a ~ ~ ~ 1
-advancement grant @a[advancements={sandwiches_galore:technical/place_item_frame=true},gamemode=!creative,limit=1] only minecraft:husbandry/plant_seed
+advancement grant @a[advancements={sandwiches_galore:technical/place_item_frame=true}] only minecraft:husbandry/plant_seed
 
 kill @s

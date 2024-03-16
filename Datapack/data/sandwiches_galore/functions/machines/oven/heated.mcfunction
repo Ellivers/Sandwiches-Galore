@@ -1,5 +1,5 @@
 # Check for missing heat viewing item
-execute unless data storage sandwiches:galore Items[{Slot:11b,id:"minecraft:orange_stained_glass_pane",tag:{SG:{GUI_Item:1b}}}] run function sandwiches_galore:machines/slots/11_oven_on
+execute unless data storage sandwiches:temp root.items[{Slot:11b,id:"minecraft:orange_stained_glass_pane",tag:{SG:{GUI_Item:1b}}}] run function sandwiches_galore:machines/slots/11_oven_on
 
 # Display the appropriate level
 scoreboard players operation #heat_temp sg.dummy = @s sg.heat
@@ -12,4 +12,4 @@ execute if score @s sg.heat_timer matches ..0 run scoreboard players remove @s s
 
 # Reset the heat timer
 execute if score @s sg.heat matches 1.. if score @s sg.heat_timer matches ..0 run scoreboard players operation @s sg.heat_timer = @s sg.heat_delay
-execute if score @s sg.heat matches 1.. if score #temp sg.dummy matches 1 unless data storage sandwiches:galore Items[{Slot:15b,Count:64b}] run function sandwiches_galore:machines/oven/process_tick
+execute if score @s sg.heat matches 1.. if score #temp sg.dummy matches 1 unless data storage sandwiches:temp root.items[{Slot:15b,Count:64b}] run function sandwiches_galore:machines/oven/process_tick

@@ -1,7 +1,7 @@
 # Merge the two item stacks
 
-execute store result score #slot_11 sg.dummy run data get storage sandwiches:galore Items[{Slot:11b}].Count
-execute store result score #slot_0 sg.dummy run data get storage sandwiches:galore Items[{Slot:0b}].Count
+execute store result score #slot_11 sg.dummy run data get storage sandwiches:temp root.items[{Slot:11b}].Count
+execute store result score #slot_0 sg.dummy run data get storage sandwiches:temp root.items[{Slot:0b}].Count
 scoreboard players operation #tempcount sg.dummy = #slot_11 sg.dummy
 scoreboard players operation #tempcount sg.dummy += #slot_0 sg.dummy
 

@@ -1,8 +1,8 @@
 # Check if the input item and the item already in the slot are the same or not
 
 data modify storage sandwiches:galore Item2 set value {}
-data modify storage sandwiches:galore Item1 set from storage sandwiches:galore Items[{Slot:0b}]
-data modify storage sandwiches:galore Item2 set from storage sandwiches:galore Items[{Slot:20b}]
+data modify storage sandwiches:galore Item1 set from storage sandwiches:temp root.items[{Slot:0b}]
+data modify storage sandwiches:galore Item2 set from storage sandwiches:temp root.items[{Slot:20b}]
 
 data merge storage sandwiches:galore {Item1:{Slot:0b,Count:0b},Item2:{Slot:0b,Count:0b}}
 

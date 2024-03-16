@@ -1,10 +1,10 @@
 # Break
 execute if score #alternate sg.dummy matches 0 unless block ~ ~ ~ minecraft:barrel run function sandwiches_galore:break/oven
 
-data modify storage sandwiches:galore Items set from block ~ ~ ~ Items
+data modify storage sandwiches:temp root.items set from block ~ ~ ~ Items
 
 # Slot 0 check
-execute if score $tickNBTChecks sg.dummy matches 1 if score #alternate sg.dummy matches 0 if block ~ ~ ~ minecraft:barrel[open=false] if data storage sandwiches:galore Items[{Slot:0b}] run function sandwiches_galore:machines/slots/0_oven/main
+execute if score $tickNBTChecks sg.dummy matches 1 if score #alternate sg.dummy matches 0 if block ~ ~ ~ minecraft:barrel[open=false] if data storage sandwiches:temp root.items[{Slot:0b}] run function sandwiches_galore:machines/slots/0_oven/main
 
 # If there is no heat left
 execute unless score @s sg.heat = @s sg.heat run data modify entity @s ArmorItems[3].tag.CustomModelData set value 6710009

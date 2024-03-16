@@ -1,7 +1,6 @@
 {
 	"parent": "sandwiches_galore:block/grinder",
 	"textures": {
-		"3": "sandwiches_galore:block/grinder_side_on",
-		"particle": "sandwiches_galore:block/grinder_side_on"
+		"side": "sandwiches_galore:block/grinder_side_on"
 	}
 }

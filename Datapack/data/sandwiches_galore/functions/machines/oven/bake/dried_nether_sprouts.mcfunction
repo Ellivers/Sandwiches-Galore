@@ -1,2 +1,2 @@
-execute if data storage sandwiches:galore Items[{Slot:15b,tag:{SG:{DriedNetherSprouts:1b}}}] unless data storage sandwiches:galore Items[{Slot:15b,Count:64b}] store result block ~ ~ ~ Items[{Slot:15b}].Count byte -1 run data get storage sandwiches:galore Items[{Slot:15b}].Count -1.0000000001
-execute unless data storage sandwiches:galore Items[{Slot:15b}] run loot replace block ~ ~ ~ container.15 loot sandwiches_galore:items/dried_nether_sprouts
+execute if data storage sandwiches:temp root.items[{Slot:15b,tag:{SG:{DriedNetherSprouts:1b}}}] unless data storage sandwiches:temp root.items[{Slot:15b,Count:64b}] store result block ~ ~ ~ Items[{Slot:15b}].Count byte -1 run data get storage sandwiches:temp root.items[{Slot:15b}].Count -1.0000000001
+execute unless data storage sandwiches:temp root.items[{Slot:15b}] run loot replace block ~ ~ ~ container.15 loot sandwiches_galore:items/dried_nether_sprouts
