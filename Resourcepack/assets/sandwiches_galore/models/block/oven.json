@@ -1,28 +1,8 @@
 {
+	"parent": "minecraft:block/orientable",
 	"textures": {
-		"2": "sandwiches_galore:block/oven_bottom_top",
-		"3": "sandwiches_galore:block/oven_sides",
-		"4": "sandwiches_galore:block/oven_front",
-		"particle": "sandwiches_galore:block/oven_front"
-	},
-	"elements": [
-		{
-			"from": [0, 0, 0],
-			"to": [16, 16, 16],
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#3"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
-			}
-		}
-	],
-	"display": {
-		"head": {
-			"translation": [0, -32.95, 0],
-			"scale": [2.289, 2.289, 2.289]
-		}
+		"top": "sandwiches_galore:block/oven_bottom_top",
+		"front": "sandwiches_galore:block/oven_front",
+		"side": "sandwiches_galore:block/oven_sides"
 	}
 }

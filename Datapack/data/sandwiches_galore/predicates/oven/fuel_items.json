@@ -4,7 +4,7 @@
     "predicate": {
         "equipment": {
             "chest": {
-                "tag": "sandwiches_galore:fuel/fuel_items"
+                "tag": "sandwiches_galore:fuel_items"
             }
         }
     }

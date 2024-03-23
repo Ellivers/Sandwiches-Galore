@@ -7,7 +7,7 @@ data modify storage sandwiches:temp root.items set from block ~ ~ ~ Items
 execute if score $tickNBTChecks sg.dummy matches 1 if score #alternate sg.dummy matches 0 if block ~ ~ ~ minecraft:barrel[open=false] if data storage sandwiches:temp root.items[{Slot:0b}] run function sandwiches_galore:machines/slots/0_oven/main
 
 # If there is no heat left
-execute unless score @s sg.heat = @s sg.heat run data modify entity @s ArmorItems[3].tag.CustomModelData set value 6710009
+execute if score @s sg.heat matches ..0 run data modify entity @s item.tag.CustomModelData set value 6710009
 execute if score @s sg.heat matches ..0 run scoreboard players reset @s sg.heat
 
 # Check item

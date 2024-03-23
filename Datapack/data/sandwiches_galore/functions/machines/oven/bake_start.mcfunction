@@ -18,4 +18,4 @@ loot replace block ~ ~ ~ container.13 loot sandwiches_galore:technical/gui_arrow
 execute unless score #remove_item sg.dummy matches 0 store result block ~ ~ ~ Items[{Slot:20b}].Count byte 1 run data get storage sandwiches:temp root.items[{Slot:20b}].Count 0.9999999999
 
 # Set the "on" model
-data modify entity @s ArmorItems[3].tag.CustomModelData set value 6710010
+data modify entity @s item.tag.CustomModelData set value 6710010
