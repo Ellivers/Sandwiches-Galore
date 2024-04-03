@@ -1,8 +1,8 @@
 {
 	"parent": "minecraft:block/cube_bottom_top",
 	"textures": {
-		"top": "sandwiches_galore:block/crafter_top",
-		"bottom": "sandwiches_galore:block/crafter_bottom",
-		"side": "sandwiches_galore:block/crafter_side"
+		"top": "sandwiches_galore:block/crafter/top",
+		"bottom": "sandwiches_galore:block/crafter/bottom",
+		"side": "sandwiches_galore:block/crafter/side"
 	}
 }

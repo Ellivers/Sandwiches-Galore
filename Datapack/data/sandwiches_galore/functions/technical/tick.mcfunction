@@ -8,7 +8,7 @@
     execute if score #alternate sg.dummy matches 2 run scoreboard players set #alternate sg.dummy 0
 
     # Run the entity tick function, as (& at) all entities with the sandwiches_galore tag
-    execute as @e[type=#sandwiches_galore:entities,tag=sandwiches_galore] at @s run function sandwiches_galore:technical/tick/entity
+    execute as @e[type=#sandwiches_galore:entities,tag=sandwiches_galore,tag=sg.tick] at @s run function sandwiches_galore:technical/tick/entity
     # Run an item check
     execute as @e[type=minecraft:item,tag=!sg.dont_check,tag=!global.ignore,tag=!global.ignore.kill,nbt={OnGround:1b}] at @s if entity @a[distance=..6] run function sandwiches_galore:technical/tick/item
     # Run as players

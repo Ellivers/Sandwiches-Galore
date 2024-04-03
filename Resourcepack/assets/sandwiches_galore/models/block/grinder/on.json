@@ -1,0 +1,6 @@
+{
+	"parent": "sandwiches_galore:block/grinder",
+	"textures": {
+		"side": "sandwiches_galore:block/grinder/side_on"
+	}
+}

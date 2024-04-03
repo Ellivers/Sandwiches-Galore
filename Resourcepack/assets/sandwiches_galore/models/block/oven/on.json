@@ -1,0 +1,6 @@
+{
+	"parent": "sandwiches_galore:block/oven",
+	"textures": {
+		"front": "sandwiches_galore:block/oven/front_on"
+	}
+}

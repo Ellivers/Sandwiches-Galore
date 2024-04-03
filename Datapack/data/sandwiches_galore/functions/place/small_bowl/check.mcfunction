@@ -1,0 +1,1 @@
+execute positioned ~ ~.1 ~ align xz positioned ~.5 ~ ~.5 unless entity @e[type=minecraft:interaction,tag=sg.non_solid_blocks,distance=...5] run function sandwiches_galore:place/small_bowl/place

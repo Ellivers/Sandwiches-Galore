@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/orientable",
-	"textures": {
-		"top": "sandwiches_galore:block/oven_bottom_top",
-		"front": "sandwiches_galore:block/oven_front",
-		"side": "sandwiches_galore:block/oven_sides"
-	}
-}

@@ -1,1 +1,2 @@
 execute if entity @s[tag=sg.machine] positioned ~ ~-.5 ~ if block ~ ~ ~ #sandwiches_galore:opaque run function sandwiches_galore:technical/common/update_light/load
+execute if entity @s[tag=sg.small_bowl,tag=!sg.has_water] if predicate sandwiches_galore:rain run function sandwiches_galore:bowl/add/water.rainfill

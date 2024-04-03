@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "sandwiches_galore:block/buckwheat/stage4"
+    }
+}

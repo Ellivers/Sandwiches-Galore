@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "sandwiches_galore:block/small_bowl/water",
+		"particle": "sandwiches_galore:block/small_bowl/water"
+	},
+	"elements": [
+		{
+			"from": [3, 4, 3],
+			"to": [13, 4, 13],
+			"faces": {
+				"up": {"uv": [0, 0, 10, 10], "texture": "#0"}
+			}
+		}
+	]
+}

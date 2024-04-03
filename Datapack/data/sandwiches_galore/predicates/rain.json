@@ -28,15 +28,6 @@
         "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-                "biome": "minecraft:snowy_tundra"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
                 "biome": "minecraft:ice_spikes"
             }
         }
@@ -55,25 +46,7 @@
         "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-                "biome": "minecraft:snowy_taiga_mountains"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
                 "biome": "minecraft:snowy_beach"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "biome": "minecraft:snowy_taiga_hills"
             }
         }
     },
@@ -92,25 +65,7 @@
         "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-                "biome": "minecraft:desert"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
                 "biome": "minecraft:desert_hills"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "biome": "minecraft:desert_lakes"
             }
         }
     },
@@ -137,24 +92,6 @@
         "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-                "biome": "minecraft:shattered_savanna"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "biome": "minecraft:shattered_savanna_plateau"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
                 "biome": "minecraft:badlands"
             }
         }
@@ -164,43 +101,7 @@
         "term": {
             "condition": "minecraft:location_check",
             "predicate": {
-                "biome": "minecraft:badlands_plateau"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
                 "biome": "minecraft:eroded_badlands"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "biome": "minecraft:modified_badlands_plateau"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "biome": "minecraft:modified_wooded_badlands_plateau"
-            }
-        }
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:location_check",
-            "predicate": {
-                "biome": "minecraft:wooded_badlands_plateau"
             }
         }
     }

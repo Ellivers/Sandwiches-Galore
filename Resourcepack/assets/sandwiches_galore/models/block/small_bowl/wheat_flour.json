@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [10, 10],
+	"textures": {
+		"flour": "sandwiches_galore:block/small_bowl/wheat_flour"
+	},
+	"elements": [
+		{
+			"from": [3, 3, 3],
+			"to": [13, 3, 13],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#flour"}
+			}
+		}
+	]
+}

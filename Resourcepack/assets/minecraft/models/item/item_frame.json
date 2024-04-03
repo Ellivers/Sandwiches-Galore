@@ -6,8 +6,8 @@
 
     "overrides": [
         {"predicate": {"custom_model_data": 6710001}, "model": "sandwiches_galore:item/buckwheat_seeds"},
-		{"predicate": {"custom_model_data": 6710002}, "model": "sandwiches_galore:block/oven"},
-		{"predicate": {"custom_model_data": 6710003}, "model": "sandwiches_galore:block/grinder"},
+		{"predicate": {"custom_model_data": 6710002}, "model": "sandwiches_galore:block/oven/off"},
+		{"predicate": {"custom_model_data": 6710003}, "model": "sandwiches_galore:block/grinder/off"},
 		{"predicate": {"custom_model_data": 6710004}, "model": "sandwiches_galore:block/cutting_board"},
 		{"predicate": {"custom_model_data": 6710005}, "model": "sandwiches_galore:block/sandwich_table"},
 		{"predicate": {"custom_model_data": 6710006}, "model": "sandwiches_galore:item/large_bowl"},

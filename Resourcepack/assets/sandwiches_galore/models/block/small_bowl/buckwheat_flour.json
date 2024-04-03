@@ -1,0 +1,6 @@
+{
+	"parent": "sandwiches_galore:block/small_bowl/wheat_flour",
+	"textures": {
+		"flour": "sandwiches_galore:block/small_bowl/buckwheat_flour"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"top": "sandwiches_galore:block/grinder/top",
+		"bottom": "sandwiches_galore:block/grinder/bottom",
+		"side": "sandwiches_galore:block/grinder/side"
+	}
+}
